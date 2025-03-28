@@ -3,8 +3,8 @@ import os
 import re
 from bs4 import BeautifulSoup
 
-input_folder = "/work/texts/"
-output_folder = "/work/extracted/"
+input_folder = "/texts"
+output_folder = "/extracted"
 
 os.makedirs(output_folder, exist_ok=True)
 
