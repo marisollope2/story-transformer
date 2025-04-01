@@ -4,7 +4,7 @@ from openai import OpenAI
 
 # Load API key from .env file
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key="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")
 
 input_folder = os.path.join("..", "extracted")
 output_folder = os.path.join("..", "translations-openai")
@@ -25,6 +25,7 @@ def translate(text):
                     "Use natural phrasing and journalistic tone."
                 )
             },
+
             {
                 "role": "user",
                 "content": f"Translate the following English text to Spanish:\n\n{text}"
@@ -42,13 +43,13 @@ def parse_and_translate(filepath):
         "image_captions": []
     }
 
-    # Split translations by section.
     header = None
-    body_started = False # to check if current section is a body since it is long
+    body_started = False  
 
     with open(filepath, 'r', encoding='utf-8') as file:
         for line in file:
             stripped = line.strip()
+
             if stripped.startswith("Title:"):
                 header = "title"
                 sections["title"] = stripped.replace("Title:", "").strip()
@@ -65,6 +66,9 @@ def parse_and_translate(filepath):
                 header = "correction"
                 sections["correction"] = stripped
                 body_started = False
+            elif stripped.startswith("Section:") or stripped.startswith("Section Header:"):
+                # Keep section headers in English and add them to body_lines to preserve order
+                sections["body_lines"].append(stripped)
             elif header == "key_ideas" and stripped.startswith("-"):
                 sections["key_ideas"].append(stripped[1:].strip())
             elif header == "image_captions" and stripped.startswith("-"):
@@ -72,18 +76,25 @@ def parse_and_translate(filepath):
             elif body_started:
                 sections["body_lines"].append(stripped)
 
-    # Translate each section
+    # Translate each section except section headers
     translated = {
         "title": translate(sections["title"]),
         "key_ideas": [translate(k) for k in sections["key_ideas"]],
-        "body": translate("\n\n".join(sections["body_lines"])),
+        "body": [],  # We'll build this while preserving section headers
         "correction": translate(sections["correction"]),
         "image_captions": [translate(c) for c in sections["image_captions"]]
     }
 
+    # Process body lines and translate only non-section headers
+    for line in sections["body_lines"]:
+        if line.startswith("Section:") or line.startswith("Section Header:"):
+            translated["body"].append(line)  # Keep section headers in English
+        else:
+            translated["body"].append(translate(line))  # Translate normal text
+
     return translated
 
-# Put as .txt file
+# Write translated content to .txt file
 def write_translated_txt(translated, output_path):
     with open(output_path, 'w', encoding='utf-8') as out:
         out.write(f"Title: {translated['title']}\n\n")
@@ -93,7 +104,8 @@ def write_translated_txt(translated, output_path):
             out.write(f"- {idea}\n")
 
         out.write("\nBody:\n")
-        out.write(translated["body"] + "\n")
+        for line in translated["body"]:
+            out.write(line + "\n")
 
         if translated["correction"]:
             out.write(f"\n\n{translated['correction']}\n")
@@ -103,7 +115,7 @@ def write_translated_txt(translated, output_path):
             for cap in translated["image_captions"]:
                 out.write(f"- {cap}\n")
 
-# Loop through all English files
+# Process all English files in the input folder
 for filename in os.listdir(input_folder):
     if "English" in filename and filename.endswith(".txt"):
         input_path = os.path.join(input_folder, filename)
