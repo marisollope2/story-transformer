@@ -27,7 +27,7 @@ def split_and_translate(text):
     return "\n".join(translations)
 
 # Section headers to keep in English
-section_headers_to_preserve = ["Section:", "Section Header:"]
+section_headers_to_preserve = ["Title:", "Section:", "Section Header:"]
 
 # Translate all files that have "English" in the filename
 for filename in os.listdir(input_folder):

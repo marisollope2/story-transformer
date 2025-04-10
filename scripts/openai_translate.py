@@ -67,8 +67,9 @@ def parse_and_translate(filepath):
                 sections["correction"] = stripped
                 body_started = False
             elif stripped.startswith("Section:") or stripped.startswith("Section Header:"):
-                # Keep section headers in English and add them to body_lines to preserve order
-                sections["body_lines"].append(stripped)
+                header_label = "Section:" if stripped.startswith("Section:") else "Section Header:"
+                header_content = stripped[len(header_label):].strip()
+                sections["body_lines"].append((header_label, header_content))  # Store as tuple
             elif header == "key_ideas" and stripped.startswith("-"):
                 sections["key_ideas"].append(stripped[1:].strip())
             elif header == "image_captions" and stripped.startswith("-"):
@@ -85,12 +86,14 @@ def parse_and_translate(filepath):
         "image_captions": [translate(c) for c in sections["image_captions"]]
     }
 
-    # Process body lines and translate only non-section headers
     for line in sections["body_lines"]:
-        if line.startswith("Section:") or line.startswith("Section Header:"):
-            translated["body"].append(line)  # Keep section headers in English
+        if isinstance(line, tuple):  # This is a section header
+            label, content = line
+            translated_content = translate(content)
+            translated["body"].append(f"{label} {translated_content}")
         else:
-            translated["body"].append(translate(line))  # Translate normal text
+            translated["body"].append(translate(line))
+
 
     return translated
 
