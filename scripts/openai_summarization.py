@@ -7,11 +7,11 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 input_folder = os.path.join("..", "extracted")
-output_folder = os.path.join("..", "summarizations-openai")
+output_folder = os.path.join("..", "summarizations-openai-narrative")
 os.makedirs(output_folder, exist_ok=True)
 
-# Translate text using OpenAI's GPT model
-def translate(text):
+# Summarize text using OpenAI's GPT model
+def summarize_text_simple(text):
     if not text.strip():
         return ""
     response = client.chat.completions.create(
@@ -20,7 +20,9 @@ def translate(text):
             {
                 "role": "system",
                 "content": (
-                    "Summarize"
+                    "You are an assistant that summarizes text clearly and concisely. Focus on capturing the main ideas, key arguments, and supporting details without copying exact phrasing."
+                    "Use natural, easy-to-understand language, and organize the summary in a logical flow. The summary should be around 200 words."
+
                 )
             },
 
@@ -32,101 +34,66 @@ def translate(text):
     )
     return response.choices[0].message.content.strip()
 
-# def parse_and_translate(filepath):
-#     sections = {
-#         "title": "",
-#         "key_ideas": [],
-#         "body_lines": [],
-#         "correction": "",
-#         "image_captions": []
-#     }
+def summarize_text_narrative(text):
+    if not text.strip():
+        return ""
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    "You are a skilled writer who summarizes text in a clear and narrative style. "
+                    "Preserve the logical flow and tone of the original text. Use transitions and natural language to make the summary feel cohesive."
+                    "Keep the summary around 200 words, while capturing the essence behind the content."
+                )
+            },
 
-#     header = None
-#     body_started = False  
+            {
+                "role": "user",
+                "content": f"Summarize this text:\n\n{text}"
+            }
+        ]
+    )
+    return response.choices[0].message.content.strip()
 
-#     with open(filepath, 'r', encoding='utf-8') as file:
-#         for line in file:
-#             stripped = line.strip()
 
-#             if stripped.startswith("Title:"):
-#                 header = "title"
-#                 sections["title"] = stripped.replace("Title:", "").strip()
-#             elif stripped.startswith("Key Ideas:"):
-#                 header = "key_ideas"
-#             elif stripped.startswith("Body:"):
-#                 header = "body"
-#                 body_started = True
-#                 continue
-#             elif stripped.startswith("Image Captions:"):
-#                 header = "image_captions"
-#                 body_started = False
-#             elif "CORRECTION" in stripped:
-#                 header = "correction"
-#                 sections["correction"] = stripped
-#                 body_started = False
-#             elif stripped.startswith("Section:") or stripped.startswith("Section Header:"):
-#                 # Keep section headers in English and add them to body_lines to preserve order
-#                 sections["body_lines"].append(stripped)
-#             elif header == "key_ideas" and stripped.startswith("-"):
-#                 sections["key_ideas"].append(stripped[1:].strip())
-#             elif header == "image_captions" and stripped.startswith("-"):
-#                 sections["image_captions"].append(stripped[1:].strip())
-#             elif body_started:
-#                 sections["body_lines"].append(stripped)
+def summarize_text_abstract(text):
+    if not text.strip():
+        return ""
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    "You are a professional abstract writer. Summarize the core arguments, objectives, findings, and conclusions of the input text in a concise and formal tone, similar to the abstract of a research paper. "
+                    "Avoid narrative storytelling or subjective interpretation. Focus on clarity, precision, and a logical structure. "
+                    "Use formal language, passive voice where appropriate, and maintain a neutral tone. "
+                    "Keep the summary around 200 words and suitable for readers looking to quickly grasp the key points of the original content."
 
-#     # Translate each section except section headers
-#     translated = {
-#         "title": translate(sections["title"]),
-#         "key_ideas": [translate(k) for k in sections["key_ideas"]],
-#         "body": [],  # We'll build this while preserving section headers
-#         "correction": translate(sections["correction"]),
-#         "image_captions": [translate(c) for c in sections["image_captions"]]
-#     }
+                )
+            },
 
-#     # Process body lines and translate only non-section headers
-#     for line in sections["body_lines"]:
-#         if line.startswith("Section:") or line.startswith("Section Header:"):
-#             translated["body"].append(line)  # Keep section headers in English
-#         else:
-#             translated["body"].append(translate(line))  # Translate normal text
+            {
+                "role": "user",
+                "content": f"Summarize this text:\n\n{text}"
+            }
+        ]
+    )
+    return response.choices[0].message.content.strip()
 
-#     return translated
 
-# # Write translated content to .txt file
-# def write_translated_txt(translated, output_path):
-#     with open(output_path, 'w', encoding='utf-8') as out:
-#         out.write(f"Title: {translated['title']}\n\n")
-
-#         out.write("Key Ideas:\n")
-#         for idea in translated["key_ideas"]:
-#             out.write(f"- {idea}\n")
-
-#         out.write("\nBody:\n")
-#         for line in translated["body"]:
-#             out.write(line + "\n")
-
-#         if translated["correction"]:
-#             out.write(f"\n\n{translated['correction']}\n")
-
-#         if translated["image_captions"]:
-#             out.write("\nImage Captions:\n")
-#             for cap in translated["image_captions"]:
-#                 out.write(f"- {cap}\n")
-
-# Process all English files in the input folder
+# Summarize text
 for filename in os.listdir(input_folder):
     if "English" in filename and filename.endswith(".txt"):
         input_path = os.path.join(input_folder, filename)
         output_filename = filename.replace("_extracted", "")
         output_path = os.path.join(output_folder, output_filename)
-        text = ""
+
         with open(input_path, 'r', encoding='utf-8') as file:
-            
-            for line in file:
-                text += line
-        ans = translate(text)
-        # translated_content = parse_and_translate(input_path)
-        # write_translated_txt(translated_content, output_path)
+            text = file.read()
+        summary = summarize_text_narrative(text)
         with open(output_path, 'w', encoding='utf-8') as out:
-            out.write(ans)
+            out.write(summary)
         print(f"Saved to: {output_filename}")
