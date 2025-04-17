@@ -20,7 +20,7 @@ def summarize_text_simple(text):
             {
                 "role": "system",
                 "content": (
-                    "You are an assistant that summarizes text clearly and concisely. Focus on capturing the main ideas, key arguments, and supporting details without copying exact phrasing."
+                    "You are an assistant that summarizes text clearly and concisely. Focus on capturing the main ideas and supporting details without copying exact phrasing."
                     "Use natural, easy-to-understand language, and organize the summary in a logical flow. The summary should be around 200 words."
 
                 )
@@ -44,7 +44,7 @@ def summarize_text_narrative(text):
                 "role": "system",
                 "content": (
                     "You are a skilled writer who summarizes text in a clear and narrative style. "
-                    "Preserve the logical flow and tone of the original text. Use transitions and natural language to make the summary feel cohesive."
+                    "Preserve the logical flow and tone of the original text. Use transitions to make the summary feel cohesive."
                     "Keep the summary around 200 words, while capturing the essence behind the content."
                 )
             },
