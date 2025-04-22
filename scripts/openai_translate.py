@@ -6,12 +6,12 @@ from openai import OpenAI
 load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-input_folder = os.path.join("..", "extracted")
-output_folder = os.path.join("..", "translations-openai")
-os.makedirs(output_folder, exist_ok=True)
+# input_folder = os.path.join("..", "extracted")
+# output_folder = os.path.join("..", "translations-openai")
+# os.makedirs(output_folder, exist_ok=True)
 
 # Translate text using OpenAI's GPT model
-def translate(text):
+def translate(text, language="Spanish"):
     if not text.strip():
         return ""
     response = client.chat.completions.create(
@@ -20,7 +20,7 @@ def translate(text):
             {
                 "role": "system",
                 "content": (
-                    "You are a professional Spanish-language science and environmental journalist. "
+                    f"You are a professional {language}-language science and environmental journalist. "
                     "You write with clarity and impact for general Latin American audiences. "
                     "Use natural phrasing and journalistic tone."
                 )
@@ -28,13 +28,13 @@ def translate(text):
 
             {
                 "role": "user",
-                "content": f"Translate the following English text to Spanish:\n\n{text}"
+                "content": f"Translate the following English text to {language}:\n\n{text}"
             }
         ]
     )
     return response.choices[0].message.content.strip()
 
-def parse_and_translate(filepath):
+def parse_and_translate(filepath, language="Spanish"):
     sections = {
         "title": "",
         "key_ideas": [],
@@ -78,11 +78,11 @@ def parse_and_translate(filepath):
 
     # Translate each section except section headers
     translated = {
-        "title": translate(sections["title"]),
-        "key_ideas": [translate(k) for k in sections["key_ideas"]],
+        "title": translate(sections["title"], language),
+        "key_ideas": [translate(k, language) for k in sections["key_ideas"]],
         "body": [],  # We'll build this while preserving section headers
-        "correction": translate(sections["correction"]),
-        "image_captions": [translate(c) for c in sections["image_captions"]]
+        "correction": translate(sections["correction"], language),
+        "image_captions": [translate(c, language) for c in sections["image_captions"]]
     }
 
     # Process body lines and translate only non-section headers
@@ -90,7 +90,7 @@ def parse_and_translate(filepath):
         if line.startswith("Section:") or line.startswith("Section Header:"):
             translated["body"].append(line)  # Keep section headers in English
         else:
-            translated["body"].append(translate(line))  # Translate normal text
+            translated["body"].append(translate(line, language))  # Translate normal text
 
     return translated
 
@@ -115,13 +115,21 @@ def write_translated_txt(translated, output_path):
             for cap in translated["image_captions"]:
                 out.write(f"- {cap}\n")
 
-# Process all English files in the input folder
-for filename in os.listdir(input_folder):
-    if "English" in filename and filename.endswith(".txt"):
-        input_path = os.path.join(input_folder, filename)
-        output_filename = filename.replace("English", "Spanish").replace("_extracted", "")
-        output_path = os.path.join(output_folder, output_filename)
+def main(language="Spanish"):
+    input_folder = os.path.join("..", "extracted")
+    output_folder = os.path.join("..", f"translations-openai-{language}")
+    os.makedirs(output_folder, exist_ok=True)
 
-        translated_content = parse_and_translate(input_path)
-        write_translated_txt(translated_content, output_path)
-        print(f"Saved to: {output_filename}")
+    # Process all English files in the input folder
+    for filename in os.listdir(input_folder):
+        if "English" in filename and filename.endswith(".txt"):
+            input_path = os.path.join(input_folder, filename)
+            output_filename = filename.replace("English", language).replace("_extracted", "")
+            output_path = os.path.join(output_folder, output_filename)
+
+            translated_content = parse_and_translate(input_path, language)
+            write_translated_txt(translated_content, output_path)
+            print(f"Saved to: {output_filename}")
+
+if __name__ == "__main__":
+    main("Indonesian")
