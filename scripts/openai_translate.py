@@ -5,7 +5,7 @@ from openai import OpenAI
 
 # Load API key from .env file
 load_dotenv()
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="API KEY")
 
 
 input_folder = os.path.join("..", "extracted")
