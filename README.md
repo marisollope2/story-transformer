@@ -54,11 +54,16 @@ After activating the virtual environment, install the necessary dependencies:
 pip install -r requirements.txt
 ```
 
-### **5️⃣ Run the API**
+### **5️⃣ Run the Streamlit App**
+#### **For Mac OS and Windows**
 ```bash
-python api/app.py
+# (1) Move into the api folder
+cd api
+
+# (2) Run the Streamlit app
+streamlit run app.py
 ```
-Visit: `http://127.0.0.1:5000/articles` to view processed articles.
+Visit: `http://localhost:8501` to view processed articles.
 
 ---
 
