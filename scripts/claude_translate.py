@@ -5,8 +5,6 @@ import argparse
 
 client = anthropic.Anthropic()
 
-file_path = 'claude_texts/file1.txt'
-
 parser = argparse.ArgumentParser(description="Process a text file.")
 parser.add_argument("file_path", help="Path to the input text file")
 
@@ -31,13 +29,18 @@ SYSTEM_TEXT = "You are a professional Spanish-language science and environmental
 TRANSLATE_TEXT = f"""
 Translate the following English text to Spanish.
 Keep the same structure of the article. 
-Translate everything but these words: Title, Key Ideas, Body, Section Header(s), Banner image, Image Captions. 
-Make sure to translate all the text other than these words (text that comes before or after). 
+Translate everything but these descriptors becuase when translated we want to see the same strcuture of the article: Title, Key Ideas, Body, Section Header(s), Banner image, Image Captions. 
+Make sure to translate all the text other than these words (text that comes before or after).
+Do not add any #s / do not bold the text. Return the text the same format in which it is given in.
 For example, in this: Section Header: Caught for its plumage --> Caught for its plumage should be translated but Section Header: should not. Another example: Title: Peru’s modern history of migration and settlement, Peru’s modern history of migration and settlement should be translated but Title: should not be.
 Make sure to translate the bullet points under the Image Captions section.
+To reiterate every single word in the article should be translated to Spanish but these phrase Title, Key Ideas, Body, Section Header(s), Banner image, Image Captions. Everything before and after these phrases should be translated.
 Here is the English text:
+
 {text_data}
 """
+
+# TRANSLATE_TEXT = f"Translate the following English text to Spanish:\n\n{text_data}"
 
 try:
     print("Starting API call...")
