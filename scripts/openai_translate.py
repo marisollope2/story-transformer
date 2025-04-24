@@ -8,73 +8,68 @@ load_dotenv()
 client = OpenAI(api_key="API KEY")
 
 
-input_folder = os.path.join("..", "extracted")
-output_folder = os.path.join("..", "translations-openai")
-os.makedirs(output_folder, exist_ok=True)
+# input_folder = os.path.join("..", "extracted")
+# output_folder = os.path.join("..", "translations-openai")
+# os.makedirs(output_folder, exist_ok=True)
 
 
 # Translate text using OpenAI's GPT model
-def translate(text):
-   if not text.strip():
-       return ""
-   response = client.chat.completions.create(
-       model="gpt-3.5-turbo",
-       messages=[
-           {
-               "role": "system",
-               "content": (
-                   "You are a professional Spanish-language science and environmental journalist. "
-                   "You write with clarity and impact for general Latin American audiences. "
-                   "Use natural phrasing and journalistic tone."
-               )
-           },
+def translate(text, language="Spanish"):
+    if not text.strip():
+        return ""
+    response = client.chat.completions.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {
+                "role": "system",
+                "content": (
+                    f"You are a professional {language}-language science and environmental journalist. "
+                    "You write with clarity and impact for general Latin American audiences. "
+                    "Use natural phrasing and journalistic tone."
+                )
+            },
 
+            {
+                "role": "user",
+                "content": f"Translate the following English text to {language}:\n\n{text}"
+            }
+        ]
+    )
+    return response.choices[0].message.content.strip()
 
-           {
-               "role": "user",
-               "content": f"Translate the following English text to Spanish:\n\n{text}"
-           }
-       ]
-   )
-   return response.choices[0].message.content.strip()
+def parse_and_translate(filepath, language="Spanish"):
+    sections = {
+        "title": "",
+        "key_ideas": [],
+        "body_lines": [],
+        "correction": "",
+        "image_captions": []
+    }
 
+    header = None
+    body_started = False  
 
-def parse_and_translate(filepath):
-   sections = {
-       "title": "",
-       "key_ideas": [],
-       "body_lines": [],
-       "correction": "",
-       "image_captions": []
-   }
+    with open(filepath, 'r', encoding='utf-8') as file:
+        for line in file:
+            stripped = line.strip()
 
-
-   header = None
-   body_started = False 
-
-
-   with open(filepath, 'r', encoding='utf-8') as file:
-       for line in file:
-           stripped = line.strip()
-
-
-           if stripped.startswith("Title:"):
-               header = "title"
-               sections["title"] = stripped.replace("Title:", "").strip()
-           elif stripped.startswith("Key Ideas:"):
-               header = "key_ideas"
-           elif stripped.startswith("Body:"):
-               header = "body"
-               body_started = True
-               continue
-           elif stripped.startswith("Image Captions:"):
-               header = "image_captions"
-               body_started = False
-           elif "CORRECTION" in stripped:
-               header = "correction"
-               sections["correction"] = stripped
-               body_started = False
-           elif stripped.startswith("Section:") or stripped.startswith("Section Header:"):
+            if stripped.startswith("Title:"):
+                header = "title"
+                sections["title"] = stripped.replace("Title:", "").strip()
+            elif stripped.startswith("Key Ideas:"):
+                header = "key_ideas"
+            elif stripped.startswith("Body:"):
+                header = "body"
+                body_started = True
+                continue
+            elif stripped.startswith("Image Captions:"):
+                header = "image_captions"
+                body_started = False
+            elif "CORRECTION" in stripped:
+                header = "correction"
+                sections["correction"] = stripped
+                body_started = False
+            elif stripped.startswith("Section:") or stripped.startswith("Section Header:"):
                header_label = "Section:" if stripped.startswith("Section:") else "Section Header:"
                header_content = stripped[len(header_label):].strip()
                sections["body_lines"].append((header_label, header_content))  # Store as tuple
@@ -85,18 +80,17 @@ def parse_and_translate(filepath):
            elif body_started:
                sections["body_lines"].append(stripped)
 
+    # Translate each section except section headers
+    translated = {
+        "title": translate(sections["title"], language),
+        "key_ideas": [translate(k, language) for k in sections["key_ideas"]],
+        "body": [],  # We'll build this while preserving section headers
+        "correction": translate(sections["correction"], language),
+        "image_captions": [translate(c, language) for c in sections["image_captions"]]
+    }
 
-   # Translate each section except section headers
-   translated = {
-       "title": translate(sections["title"]),
-       "key_ideas": [translate(k) for k in sections["key_ideas"]],
-       "body": [],  # We'll build this while preserving section headers
-       "correction": translate(sections["correction"]),
-       "image_captions": [translate(c) for c in sections["image_captions"]]
-   }
-
-
-   for line in sections["body_lines"]:
+    # Process body lines and translate only non-section headers
+    for line in sections["body_lines"]:
        if isinstance(line, tuple):  # This is a section header
            label, content = line
            translated_content = translate(content)
@@ -108,7 +102,6 @@ def parse_and_translate(filepath):
 
 
    return translated
-
 
 # Write translated content to .txt file
 def write_translated_txt(translated, output_path):
@@ -136,17 +129,21 @@ def write_translated_txt(translated, output_path):
                out.write(f"- {cap}\n")
 
 
-# Process all English files in the input folder
-for filename in os.listdir(input_folder):
-   if "English" in filename and filename.endswith(".txt"):
-       input_path = os.path.join(input_folder, filename)
-       output_filename = filename.replace("English", "Spanish").replace("_extracted", "")
-       output_path = os.path.join(output_folder, output_filename)
+def main(language="Spanish"):
+    input_folder = os.path.join("..", "extracted")
+    output_folder = os.path.join("..", f"translations-openai-{language}")
+    os.makedirs(output_folder, exist_ok=True)
 
+    # Process all English files in the input folder
+    for filename in os.listdir(input_folder):
+        if "English" in filename and filename.endswith(".txt"):
+            input_path = os.path.join(input_folder, filename)
+            output_filename = filename.replace("English", language).replace("_extracted", "")
+            output_path = os.path.join(output_folder, output_filename)
 
-       translated_content = parse_and_translate(input_path)
-       write_translated_txt(translated_content, output_path)
-       print(f"Saved to: {output_filename}")
+            translated_content = parse_and_translate(input_path, language)
+            write_translated_txt(translated_content, output_path)
+            print(f"Saved to: {output_filename}")
 
-
-
+if __name__ == "__main__":
+    main("Indonesian")
