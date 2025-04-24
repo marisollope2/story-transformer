@@ -73,11 +73,11 @@ def parse_and_translate(filepath, language="Spanish"):
                header_label = "Section:" if stripped.startswith("Section:") else "Section Header:"
                header_content = stripped[len(header_label):].strip()
                sections["body_lines"].append((header_label, header_content))  # Store as tuple
-           elif header == "key_ideas" and stripped.startswith("-"):
+            elif header == "key_ideas" and stripped.startswith("-"):
                sections["key_ideas"].append(stripped[1:].strip())
-           elif header == "image_captions" and stripped.startswith("-"):
+            elif header == "image_captions" and stripped.startswith("-"):
                sections["image_captions"].append(stripped[1:].strip())
-           elif body_started:
+            elif body_started:
                sections["body_lines"].append(stripped)
 
     # Translate each section except section headers
@@ -97,11 +97,8 @@ def parse_and_translate(filepath, language="Spanish"):
            translated["body"].append(f"{label} {translated_content}")
        else:
            translated["body"].append(translate(line))
-
-
-
-
-   return translated
+           
+    return translated
 
 # Write translated content to .txt file
 def write_translated_txt(translated, output_path):
