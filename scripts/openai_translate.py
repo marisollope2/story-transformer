@@ -2,13 +2,16 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 
+
 # Load API key from .env file
 load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI(api_key="API KEY")
+
 
 # input_folder = os.path.join("..", "extracted")
 # output_folder = os.path.join("..", "translations-openai")
 # os.makedirs(output_folder, exist_ok=True)
+
 
 # Translate text using OpenAI's GPT model
 def translate(text, language="Spanish"):
@@ -67,14 +70,15 @@ def parse_and_translate(filepath, language="Spanish"):
                 sections["correction"] = stripped
                 body_started = False
             elif stripped.startswith("Section:") or stripped.startswith("Section Header:"):
-                # Keep section headers in English and add them to body_lines to preserve order
-                sections["body_lines"].append(stripped)
-            elif header == "key_ideas" and stripped.startswith("-"):
-                sections["key_ideas"].append(stripped[1:].strip())
-            elif header == "image_captions" and stripped.startswith("-"):
-                sections["image_captions"].append(stripped[1:].strip())
-            elif body_started:
-                sections["body_lines"].append(stripped)
+               header_label = "Section:" if stripped.startswith("Section:") else "Section Header:"
+               header_content = stripped[len(header_label):].strip()
+               sections["body_lines"].append((header_label, header_content))  # Store as tuple
+           elif header == "key_ideas" and stripped.startswith("-"):
+               sections["key_ideas"].append(stripped[1:].strip())
+           elif header == "image_captions" and stripped.startswith("-"):
+               sections["image_captions"].append(stripped[1:].strip())
+           elif body_started:
+               sections["body_lines"].append(stripped)
 
     # Translate each section except section headers
     translated = {
@@ -87,33 +91,43 @@ def parse_and_translate(filepath, language="Spanish"):
 
     # Process body lines and translate only non-section headers
     for line in sections["body_lines"]:
-        if line.startswith("Section:") or line.startswith("Section Header:"):
-            translated["body"].append(line)  # Keep section headers in English
-        else:
-            translated["body"].append(translate(line, language))  # Translate normal text
+       if isinstance(line, tuple):  # This is a section header
+           label, content = line
+           translated_content = translate(content)
+           translated["body"].append(f"{label} {translated_content}")
+       else:
+           translated["body"].append(translate(line))
 
-    return translated
+
+
+
+   return translated
 
 # Write translated content to .txt file
 def write_translated_txt(translated, output_path):
-    with open(output_path, 'w', encoding='utf-8') as out:
-        out.write(f"Title: {translated['title']}\n\n")
+   with open(output_path, 'w', encoding='utf-8') as out:
+       out.write(f"Title: {translated['title']}\n\n")
 
-        out.write("Key Ideas:\n")
-        for idea in translated["key_ideas"]:
-            out.write(f"- {idea}\n")
 
-        out.write("\nBody:\n")
-        for line in translated["body"]:
-            out.write(line + "\n")
+       out.write("Key Ideas:\n")
+       for idea in translated["key_ideas"]:
+           out.write(f"- {idea}\n")
 
-        if translated["correction"]:
-            out.write(f"\n\n{translated['correction']}\n")
 
-        if translated["image_captions"]:
-            out.write("\nImage Captions:\n")
-            for cap in translated["image_captions"]:
-                out.write(f"- {cap}\n")
+       out.write("\nBody:\n")
+       for line in translated["body"]:
+           out.write(line + "\n")
+
+
+       if translated["correction"]:
+           out.write(f"\n\n{translated['correction']}\n")
+
+
+       if translated["image_captions"]:
+           out.write("\nImage Captions:\n")
+           for cap in translated["image_captions"]:
+               out.write(f"- {cap}\n")
+
 
 def main(language="Spanish"):
     input_folder = os.path.join("..", "extracted")
