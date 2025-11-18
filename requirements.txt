@@ -7,3 +7,6 @@ requests
 python-dotenv
 regex
 Pillow
+boto3
+botocore
+python-docx

@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="es" class="no-js">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="es" class="no-js">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8) ]><!-->
+<html lang="es" class="no-js">
+<!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8" />
+	<title>El ave que desafía a la extinción: periquito dorado regresa a los cielos de Belem en la Amazonía brasileña</title>
+	<link href="//www.google-analytics.com" rel="dns-prefetch">
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12973256-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-12973256-1');
+	</script>
+
+	<link rel="shortcut icon" href="https://es.mongabay.com/wp-content/themes/mongabay_v2/img/icons/favicon.png" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" href="https://es.mongabay.com/wp-content/themes/mongabay_v2/img/icons/ico-s2.jpg">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://es.mongabay.com/wp-content/themes/mongabay_v2/img/icons/ico-l2.jpg">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://es.mongabay.com/wp-content/themes/mongabay_v2/img/icons/ico-s.jpg">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://es.mongabay.com/wp-content/themes/mongabay_v2/img/icons/ico-l.jpg">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
+	<meta name="referrer" content="always" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="description" content="Noticias sobre la fauna y la naturaleza" />
+	<meta property="fb:pages" content="24436227877" />
+		<script>var et_site_url='https://es.mongabay.com';var et_post_id='257192';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v23.0 (Yoast SEO v23.1) - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="description" content="El ave que desafía a la extinción: periquito dorado regresa a los cielos de Belem en la Amazonía brasileña." />
+	<link rel="canonical" href="https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/" />
+	<meta property="og:locale" content="es_ES" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="El ave que desafía a la extinción: periquito dorado regresa a los cielos de Belem en la Amazonía brasileña" />
+	<meta property="og:description" content="El ave que desafía a la extinción: periquito dorado regresa a los cielos de Belem en la Amazonía brasileña." />
+	<meta property="og:url" content="https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/" />
+	<meta property="og:site_name" content="Noticias ambientales" />
+	<meta property="article:published_time" content="2025-02-08T10:55:06+00:00" />
+	<meta property="article:modified_time" content="2025-02-08T12:20:44+00:00" />
+	<meta property="og:image" content="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175224/PORTADA-Parakeets-flying.jpg" />
+	<meta property="og:image:width" content="1600" />
+	<meta property="og:image:height" content="1172" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="author" content="mayra" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:label1" content="Escrito por" />
+	<meta name="twitter:data1" content="mayra" />
+	<meta name="twitter:label2" content="Tiempo de lectura" />
+	<meta name="twitter:data2" content="10 minutos" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/","url":"https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/","name":"El ave que desafía a la extinción: periquito dorado regresa a los cielos de Belem en la Amazonía brasileña","isPartOf":{"@id":"https://es.mongabay.com/#website"},"primaryImageOfPage":{"@id":"https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/#primaryimage"},"image":{"@id":"https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/#primaryimage"},"thumbnailUrl":"https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175224/PORTADA-Parakeets-flying.jpg","datePublished":"2025-02-08T10:55:06+00:00","dateModified":"2025-02-08T12:20:44+00:00","author":{"@id":"https://es.mongabay.com/#/schema/person/fbfbb9ef725d8f0cf48b890b8a5753e2"},"description":"El ave que desafía a la extinción: periquito dorado regresa a los cielos de Belem en la Amazonía brasileña.","breadcrumb":{"@id":"https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/"]}]},{"@type":"ImageObject","inLanguage":"es","@id":"https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/#primaryimage","url":"https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175224/PORTADA-Parakeets-flying.jpg","contentUrl":"https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175224/PORTADA-Parakeets-flying.jpg","width":1600,"height":1172,"caption":"Una bandada de cuatro periquitos dorados vuela por el Parque Estatal de Utinga, en Belém. Localmente extintos en Belém desde hace 100 años, estas aves han vuelto a la ciudad tras dedicados esfuerzos de conservación. Imagen cortesía de Marcelo Vilarta."},{"@type":"BreadcrumbList","@id":"https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://es.mongabay.com/"},{"@type":"ListItem","position":2,"name":"El ave que desafía a la extinción: periquito dorado regresa a los cielos de Belem en la Amazonía brasileña"}]},{"@type":"WebSite","@id":"https://es.mongabay.com/#website","url":"https://es.mongabay.com/","name":"Noticias ambientales","description":"Noticias sobre la fauna y la naturaleza","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://es.mongabay.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"},{"@type":"Person","@id":"https://es.mongabay.com/#/schema/person/fbfbb9ef725d8f0cf48b890b8a5753e2","name":"mayra","image":{"@type":"ImageObject","inLanguage":"es","@id":"https://es.mongabay.com/#/schema/person/image/","url":"https://secure.gravatar.com/avatar/43aba965aae69d1283b1e01fccdccda8?s=96&d=mm&r=g","contentUrl":"https://secure.gravatar.com/avatar/43aba965aae69d1283b1e01fccdccda8?s=96&d=mm&r=g","caption":"mayra"},"url":"https://es.mongabay.com/author/mayra/"}]}</script>
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<!-- es.mongabay.com is managing ads with Advanced Ads 2.0.4 – https://wpadvancedads.com/ --><script id="monga-ready">
+			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
+		<link rel='stylesheet' id='wp-block-library-css' href='https://es.mongabay.com/wp-includes/css/dist/block-library/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-components-css' href='https://es.mongabay.com/wp-includes/css/dist/components/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-preferences-css' href='https://es.mongabay.com/wp-includes/css/dist/preferences/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-block-editor-css' href='https://es.mongabay.com/wp-includes/css/dist/block-editor/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-reusable-blocks-css' href='https://es.mongabay.com/wp-includes/css/dist/reusable-blocks/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-patterns-css' href='https://es.mongabay.com/wp-includes/css/dist/patterns/style.min.css' media='all' />
+<link rel='stylesheet' id='wp-editor-css' href='https://es.mongabay.com/wp-includes/css/dist/editor/style.min.css' media='all' />
+<link rel='stylesheet' id='drop_shadow_block-style-css-css' href='https://es.mongabay.com/wp-content/plugins/drop-shadow-boxes/block/blocks.style.build.css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='framework-css' href='https://es.mongabay.com/wp-content/themes/mongabay_v2/css/style.css' media='all' />
+<link rel='stylesheet' id='icon-fonts-css' href='https://es.mongabay.com/wp-content/themes/mongabay_v2/css/fontello.css' media='all' />
+<link rel='stylesheet' id='addtohomescreen-css' href='https://es.mongabay.com/wp-content/themes/mongabay_v2/css/addtohomescreen.min.css' media='all' />
+<link rel='stylesheet' id='dialog-polyfill-css' href='https://es.mongabay.com/wp-content/themes/mongabay_v2/css/dialog-polyfill.css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://es.mongabay.com/wp-content/plugins/tablepress/css/build/default.css' media='all' />
+<script type="text/javascript" src="https://es.mongabay.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://es.mongabay.com/wp-includes/js/jquery/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://es.mongabay.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://es.mongabay.com/wp-json/wp/v2/posts/257192" /><link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://es.mongabay.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fes.mongabay.com%2F2025%2F02%2Fave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://es.mongabay.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fes.mongabay.com%2F2025%2F02%2Fave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena%2F&#038;format=xml" />
+<style type="text/css">
+.feedzy-rss-link-icon:after {
+	content: url("https://es.mongabay.com/wp-content/plugins/feedzy-rss-feeds/img/external-link.png");
+	margin-left: 3px;
+}
+</style>
+		<meta name="generator" content="Site Kit by Google 1.148.0" /><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GHKBRBMSKL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GHKBRBMSKL');
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "hghbc1qyh5");
+</script>
+<!-- HubSpot WordPress Plugin v10.1.23: embed JS disabled as a portalId has not yet been configured --><script type='text/javascript'>var PwpJsVars = {"AjaxURL":"https:\/\/es.mongabay.com\/wp-admin\/admin-ajax.php","homeurl":"https:\/\/es.mongabay.com\/","installprompt":{"mode":"normal","pageloads":"2","onclick":""}};</script>		<script type="text/javascript" id="serviceworker-unregister">
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.getRegistrations().then(function (registrations) {
+					registrations.forEach(function (registration) {
+						if (registration.active.scriptURL === window.location.origin + '/pwp-serviceworker.js') {
+							registration.unregister();
+						}
+					});
+				});
+			}
+		</script>
+				<script type="text/javascript" id="serviceworker">
+			if (navigator.serviceWorker) {
+				window.addEventListener('load', function () {
+					navigator.serviceWorker.register(
+						"https:\/\/es.mongabay.com\/?wp_service_worker=1", {"scope": "\/"}
+					);
+				});
+			}
+		</script>
+		<link rel="manifest" href="https://es.mongabay.com/wp-json/app/v1/pwp-manifest"><meta name="theme-color" content="#000000">		<meta name="onesignal" content="wordpress-plugin"/>
+		<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+		<script>
+
+			window.OneSignal = window.OneSignal || [];
+
+			OneSignal.push(function () {
+
+				OneSignal.SERVICE_WORKER_UPDATER_PATH = "https://es.mongabay.com/?wp_service_worker=1";
+				OneSignal.SERVICE_WORKER_PATH = "https://es.mongabay.com/?wp_service_worker=1";
+				OneSignal.SERVICE_WORKER_PARAM = {
+					scope: '/'
+				};
+
+				OneSignal.setDefaultNotificationUrl("https://es.mongabay.com");
+				var oneSignal_options = {};
+				window._oneSignalInitOptions = oneSignal_options;
+
+				oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = '4027895c-2760-4883-9265-df7f57d9a3b7';
+oneSignal_options['autoRegister'] = true;
+oneSignal_options['httpPermissionRequest'] = { };
+oneSignal_options['httpPermissionRequest']['enable'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "sdk_files/";
+oneSignal_options['safari_web_id'] = "web.onesignal.auto.175a5781-a0a7-4966-97e0-0bfa01fcdb1f";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['prenotify'] = true;
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+				OneSignal.init(window._oneSignalInitOptions);
+							});
+
+			function documentInitOneSignal() {
+				var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+				var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };				for (var i = 0; i < oneSignal_elements.length; i++) {
+					oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+				}
+			}
+
+			if (document.readyState === 'complete') {
+				documentInitOneSignal();
+			} else {
+				window.addEventListener("load", function (event) {
+					documentInitOneSignal();
+				});
+			}
+		</script>
+		<style type="text/css">
+			.wpsdc-drop-cap {
+				float : left;				
+				padding : 0.25em 0.05em 0.25em 0;				
+				font-size : 5em;
+				line-height : 0.4em;}
+		</style><link rel="preload" href="https://es.mongabay.com/wp-content/plugins/bloom/core/admin/fonts/modules.ttf" as="font" crossorigin="anonymous"><meta name="description" content="El periquito dorado es tan ruidoso como vistoso. Colgados de las ramas superiores, tres de estos loros de tamaño mediano chillan y graznan mientras se asoman para ver mejor al biólogo Marcelo Vilarta mientras los observa. También conocidos como conuros dorados, son aves llamativas con su plumaje amarillo vibrante y las puntas verdes de sus [&hellip;]" />
+<meta name="Tags" content="Mongabay, Mongabay Environmental News, Environmental News, Conservation News" />
+<meta property="keywords" content="Mongabay, Mongabay Environmental News, Environmental News, Conservation News" />
+<meta name="robots" content="index, follow" />
+<link rel="publisher" href="https://plus.google.com/+Mongabay/" />
+<meta property="article:publisher" content="https://www.facebook.com/mongabay/"/>
+<meta property="og:title" content="El ave que desafía a la extinción: periquito dorado regresa a los cielos de Belem en la Amazonía brasileña"/>
+<meta property="og:site_name" content="Mongabay Environmental News"/>
+<meta property="og:url" content="https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/"/>
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175224/PORTADA-Parakeets-flying-1200x800.jpg"/>
+<meta property="og:description" content="El periquito dorado es tan ruidoso como vistoso. Colgados de las ramas superiores, tres de estos loros de tamaño mediano chillan y graznan mientras se asoman para ver mejor al biólogo Marcelo Vilarta mientras los observa. También conocidos como conuros dorados, son aves llamativas con su plumaje amarillo vibrante y las puntas verdes de sus [&hellip;]"/>
+<meta property="article:published_time" content="2025-02-08T10:55:06+00:00" />
+<meta property="article:modified_time" content="2025-02-08T12:20:44+00:00" />
+<meta property="article:section" content="Environmental news" />
+<meta property="article:tag" content="Mongabay, Mongabay Environmental News, Environmental News, Conservation News" />
+<meta property="fb:admins" content="139042016164873" />
+<meta property="og:locale" content="es_ES" />
+<meta property="fb:app_id" content="1559969950974398"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@mongabay"/><meta name="twitter:title" content="El ave que desafía a la extinción: periquito dorado regresa a los cielos de Belem en la Amazonía brasileña"/>
+<meta name="twitter:description" content="El periquito dorado es tan ruidoso como vistoso. Colgados de las ramas superiores, tres de estos loros de tamaño mediano chillan y graznan mientras se asoman para ver mejor al biólogo Marcelo Vilarta mientras los observa. También conocidos como conuros dorados, son aves llamativas con su plumaje amarillo vibrante y las puntas verdes de sus [&hellip;]"/>
+<meta name="twitter:image" content="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175224/PORTADA-Parakeets-flying-1200x800.jpg"/>
+<meta name="twitter:creator" content="@mongabaylatam"/>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<link rel="amphtml" href="https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/amp/">	<!-- Fonts Plugin CSS - https://fontsplugin.com/ -->
+	<style>
+			</style>
+	<!-- Fonts Plugin CSS -->
+	
+</head>
+
+<body class="post-template-default single single-post postid-257192 single-format-standard et_bloom ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena aa-prefix-monga-">
+	<script async data-id="101413170" src="//static.getclicky.com/js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101413170ns.gif" /></p></noscript>	<header class="header sticky" role="banner">
+		<div class="container in-row space-between align-center ph--40 pv--20">
+			<div class="branding">
+				<a href="https://es.mongabay.com" class="theme-light" data-wpel-link="internal"><img src="https://es.mongabay.com/wp-content/themes/mongabay_v2/img/logo/mongabay_logo_news_black.svg" /></a><a href="https://es.mongabay.com" class="theme-dark" data-wpel-link="internal"><img src="https://es.mongabay.com/wp-content/themes/mongabay_v2/img/logo/mongabay_logo_news_white.svg" /></a>
+			</div>
+			<div class="menu-container align-center">
+				<ul class="main-menu nav-desktop">
+					<li><a href="https://es.mongabay.com/destacadas" class="">Destacadas</a></li>
+					<li><a href=" https://es.mongabay.com/videos" class="">Videos</a></li>					<li><a href="https://es.mongabay.com/podcasts" class="">Podcasts</a></li>					<li><a href=" https://es.mongabay.com/especiales" class="">Especiales</a></li>					<li><a href="https://es.mongabay.com/articulos" class="">Artículos</a></li>
+					<li><a href="https://es.mongabay.com/en-corto" class="">En corto</a></li>				</ul>
+				<a class="theme--button primary simple md-hide" href="https://mongabay.org/donate" data-wpel-link="external" rel="external noopener noreferrer">Donar</a>
+				<a id="theme-switch" class="icon icon-cog"></a>
+				<a id="site-search" href="https://es.mongabay.com/?s=" data-wpel-link="internal"><span class="icon icon-search"></span></a>
+				<a id="secondary-menu"><span class="icon icon-menu"></span></a>
+			</div>
+			<div id="off-canvas">
+									<span class="icon icon-cancel"></span>
+								<div class="container in-column ph--40 pv--20 gap--20 " style="justify-content: space-between">
+					<div class="global-nav gap--20">
+						<span class="icon icon-globe md-hide"></span>
+						<ul class="global-languages">
+							<li><a href="https://news.mongabay.com" class="">English</a></li>
+							<li><a href="https://es.mongabay.com" class="active" data-wpel-link="internal">Español (Spanish)</a></li>
+							<li><a href="https://fr.mongabay.com" class="">Français (French)</a></li>
+							<li><a href="https://www.mongabay.co.id" class="">Bahasa Indonesia (Indonesian)</a></li>
+							<li><a href="https://brasil.mongabay.com" class="">Brasil (Portuguese)</a></li>
+							<li><a href="https://india.mongabay.com" class="">India (English)</a></li>
+							<li><a href="https://hindi.mongabay.com" class="">हिंदी (Hindi)</a></li>
+						</ul>
+											</div>
+					<ul class="main-menu nav-desktop off-canvas">
+						<li><a href=" https://es.mongabay.com/videos" data-wpel-link="internal">Videos</a></li>						<li><a href=" https://es.mongabay.com/podcasts" data-wpel-link="internal">Podcasts</a></li>						<li><a href=" https://es.mongabay.com/articulos" data-wpel-link="internal">Artículos</a></li>
+						<li><a href=" https://es.mongabay.com/en-corto" data-wpel-link="internal">En corto</a></li>						<li><a href=" https://es.mongabay.com/destacadas" data-wpel-link="internal">Historias destacadas</a></li>
+						<li><a href=" https://es.mongabay.com/list/" data-wpel-link="internal">Más contenidos</a></li>
+						<li><a href=" https://es.mongabay.com/?s=&amp;formats=post+custom_story+videos+podcasts+specials+short_article" data-wpel-link="internal">Explora todo</a></li>
+					</ul>
+									</div>
+			</div>
+		</div>
+		<script>
+			const isDarkMode = window.localStorage.getItem("mongabay-theme");
+
+			if (isDarkMode) {
+				document.querySelector("body").classList.add("dark-mode");
+			}
+
+			function brandingDisplay() {
+				if (document.querySelector("body").classList.contains("dark-mode")) {
+					window.localStorage.setItem("mongabay-theme", "dark-mode");
+					document.querySelector(".branding .theme-light").style.display = "none";
+					document.querySelector(".branding .theme-dark").style.display = "block";
+				} else {
+					window.localStorage.removeItem("mongabay-theme");
+					document.querySelector(".branding .theme-light").style.display = "block";
+					document.querySelector(".branding .theme-dark").style.display = "none";
+				}
+			}
+
+			brandingDisplay();
+
+			document.getElementById("theme-switch").addEventListener("click", (e) => {
+				e.preventDefault;
+				e.stopPropagation;
+				document.querySelector("body").classList.toggle("dark-mode");
+				brandingDisplay();
+			});
+
+			document.getElementById("secondary-menu").addEventListener("click", (e) => {
+				e.preventDefault;
+				e.stopPropagation;
+				document.getElementById("off-canvas").classList.add("active");
+				document.querySelector("body").classList.add("no-scroll");
+			});
+
+			document.querySelector(".icon-cancel").addEventListener("click", (e) => {
+				e.preventDefault;
+				e.stopPropagation;
+				document.getElementById("off-canvas").classList.remove("active");
+				document.querySelector("body").classList.remove("no-scroll");
+			});
+		</script>
+	</header><main role="main">
+        <div class="container in-column ph--40">
+        <div class="single">
+              <div class="container in-column gap--16 article-headline">
+    <h1>El ave que desafía a la extinción: periquito dorado regresa a los cielos de Belem en la Amazonía brasileña</h1>
+    <div class="container in-column full-width single-article-meta">
+      <div class="about-author gap--16">
+        <div class="author-avatar">
+          <span class="meta-author-circle"></span>        </div>
+        <div class="extra-info">
+          <span class="bylines"><a href="https://es.mongabay.com/by/sarah-brown/" rel="tag" data-wpel-link="internal">Sarah Brown</a></span>
+          <div class="post-meta">
+            <span class="date">8 Feb 2025</span>
+            <span class="taxonomy"><a href="https://es.mongabay.com/location/america-del-sur" data-wpel-link="internal">América del Sur</a></span>                      </div>
+        </div>
+      </div>
+      <div class="container social gap--4">
+        <a href="#spotim-specific" class="theme--button simple secondary">Comentarios</a>
+        <a id="share-article" class="theme--button simple secondary" href="#" title="Share El%20ave%20que%20desafía%20a%20la%20extinción:%20periquito%20dorado%20regresa%20a%20los%20cielos%20de%20Belem%20en%20la%20Amazonía%20brasileña">Compartir article</a>
+  <dialog id="share-dialog">
+    <a class="close icon icon-cancel"></a>
+    <div class="container ph--40 pv--40 gap--40 in-column share-dialog-content">
+      <div class="container text-center in-column">
+        <h1>Comparte esto article</h1>
+        <p>Si te gustó esta historia, compártela con más personas.</p>
+      </div>
+      <div class="grid--4 repeat gap--40 share-dialog-links">
+        <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fes.mongabay.com%2F2025%2F02%2Fave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena%2F" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><span class="icon-share"><svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M2.88237 4.28422C2.88237 4.14786 2.90131 3.85338 2.93918 3.40266C2.9799 2.951 3.15034 2.4785 3.45618 1.98233C3.75919 1.48805 4.25062 1.04396 4.93428 0.651006C5.61509 0.259941 6.59891 0.0629883 7.88289 0.0629883H11.5V4.00488H8.85155C8.58926 4.00488 8.34497 4.10336 8.12434 4.29747C7.90561 4.49158 7.79293 4.67623 7.79293 4.84761V7.30006H11.4991C11.4602 7.78013 11.4176 8.24694 11.3684 8.69766L11.2216 9.88885C11.1629 10.2913 11.1033 10.6643 11.0445 11.0081H7.76642V21.9371H2.88237V11.0071H0.5V7.30006H2.88237V4.28422Z" fill="inherit"/>
+  </svg>
+  </span>Facebook</a><a class="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fes.mongabay.com%2F2025%2F02%2Fave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena%2F&amp;title=El%20ave%20que%20desafía%20a%20la%20extinción:%20periquito%20dorado%20regresa%20a%20los%20cielos%20de%20Belem%20en%20la%20Amazonía%20brasileña" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><span class="icon-share"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M0.5 3.02735C0.5 1.63156 1.63156 0.5 3.02735 0.5C4.42314 0.5 5.55471 1.63156 5.55471 3.02735C5.55471 4.42314 4.42314 5.55471 3.02735 5.55471C1.63156 5.55471 0.5 4.42314 0.5 3.02735Z" fill="inherit"/>
+  <path d="M12.2177 9.46062C12.7979 8.36352 14.1994 7.20898 16.3074 7.20898C20.7016 7.20898 21.5 10.0695 21.5 13.826V21.5H17.1805V14.6991C17.1805 13.0793 17.1518 11.023 14.9289 11.023C12.6715 11.023 12.3096 12.7864 12.3096 14.6072V21.5H7.99016V7.53064H12.1258V9.46062H12.2177Z" fill="inherit"/>
+  <path d="M0.913567 21.5V7.53064H5.279V21.5H0.913567Z" fill="inherit"/>
+  </svg>
+  </span>Linkedin</a><a class="threads" href="https://threads.net/intent/post?text=El%20ave%20que%20desafía%20a%20la%20extinción:%20periquito%20dorado%20regresa%20a%20los%20cielos%20de%20Belem%20en%20la%20Amazonía%20brasileña https%3A%2F%2Fes.mongabay.com%2F2025%2F02%2Fave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena%2F" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><span class="icon-share"><svg width="23" height="28" viewBox="0 0 23 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M11.6169 27.1708C8.9536 27.1708 7.72896 26.8426 5.69446 25.7472C3.93173 24.7982 2.41201 23.528 1.59852 21.7049C-1.31631 15.1744 -0.4308 5.40737 5.79835 2.16144C8.96137 0.513478 13.9788 0.332386 17.1924 1.9661C20.2748 3.53323 21.7663 5.97811 23 9.11496L20.4818 9.83441C19.3189 5.60944 16.5167 3.26872 11.9684 3.26872C10.171 3.26872 8.53986 3.44929 7.16911 4.12884C3.89028 5.75349 2.54673 9.56471 2.4146 13.4252C2.31848 16.2304 2.77186 19.0621 4.0237 21.0994C5.4556 23.4295 8.43105 24.9031 11.2202 24.9031C13.8327 24.9031 15.9348 24.449 17.5561 22.9282C19.7639 20.8569 20.2241 17.554 17.4097 15.5402C16.5429 22.9386 6.51054 22.5166 6.51054 16.6361C6.51054 15.4151 6.98542 14.3495 7.93493 13.4397C9.82072 11.6326 12.6581 12.1666 15.0245 12.1308C14.775 11.014 13.8255 9.3958 12.0029 9.3958C10.5985 9.3958 9.38833 9.74891 8.73779 10.8365L6.77739 9.56471C7.60772 8.00561 9.28185 6.98175 11.8503 6.98175C14.4187 6.98175 16.9331 8.66236 17.3499 11.8495L17.4787 12.8337C18.9305 13.4195 19.9756 14.5122 20.7013 15.6133C22.7415 18.7092 21.6166 22.6805 18.703 25.1495C17.1134 26.4967 14.7509 27.1705 11.6171 27.1705L11.6169 27.1708ZM8.85127 16.5864C8.85127 17.7978 10.1365 18.7038 11.3809 18.7038C12.769 18.7038 13.7234 18.3123 14.2439 17.5294C14.7644 16.7465 15.0247 15.8035 15.0247 14.7008C13.5988 14.3384 11.1179 14.0785 9.8031 14.9488C9.18392 15.3586 8.85153 15.8807 8.85153 16.5864H8.85127Z" fill="inherit"/>
+  </svg>
+  </span>Threads</a><a class="whatsapp" href="whatsapp://send?text=https%3A%2F%2Fes.mongabay.com%2F2025%2F02%2Fave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena%2F&amp;title=El%20ave%20que%20desafía%20a%20la%20extinción:%20periquito%20dorado%20regresa%20a%20los%20cielos%20de%20Belem%20en%20la%20Amazonía%20brasileña" target="_blank" data-wpel-link="internal"><span class="icon-share"><svg width="25" height="26" viewBox="0 0 25 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M25 12.6771C25 19.4018 19.5053 24.8553 12.7279 24.8553C10.5749 24.8553 8.55245 24.3056 6.79569 23.3391L0 25.4989L2.21484 18.9666C1.09711 17.132 0.453505 14.979 0.453505 12.6794C0.453505 5.95243 5.94823 0.501221 12.7256 0.501221C19.503 0.501221 24.9977 5.95472 24.9977 12.6794L25 12.6771ZM12.7279 2.43663C7.03619 2.43663 2.40953 7.02893 2.40953 12.6748C2.40953 14.9149 3.13788 16.99 4.37471 18.678L3.0852 22.4801L7.04993 21.2204C8.67842 22.29 10.6299 22.913 12.7279 22.913C18.4173 22.913 23.0463 18.3207 23.0463 12.6748C23.0463 7.02893 18.4173 2.43663 12.7279 2.43663ZM18.9258 15.4806C18.8502 15.3569 18.6486 15.2813 18.3486 15.1325C18.0486 14.9836 16.5666 14.2598 16.2918 14.1613C16.0169 14.0628 15.8154 14.0124 15.6161 14.3102C15.4146 14.6079 14.8397 15.2813 14.6633 15.4806C14.4892 15.6799 14.3129 15.7051 14.0128 15.5562C13.7105 15.4073 12.7416 15.0912 11.5941 14.0743C10.7009 13.2818 10.0962 12.3061 9.91983 12.006C9.74576 11.7083 9.90151 11.5457 10.0504 11.3968C10.1855 11.2616 10.3527 11.0486 10.5016 10.8746C10.6528 10.7005 10.7032 10.5745 10.8016 10.3752C10.9024 10.176 10.852 10.0019 10.7765 9.85303C10.7009 9.70415 10.1008 8.23599 9.84883 7.6359C9.59917 7.04039 9.34952 7.061 9.17315 7.061C8.99679 7.061 8.67384 7.11368 8.67384 7.11368C8.67384 7.11368 8.07146 7.18926 7.79432 7.48702C7.51947 7.78477 6.74072 8.50855 6.74072 9.97671C6.74072 11.4449 7.81722 12.8649 7.96839 13.0642C8.11956 13.2635 10.0481 16.3762 13.1081 17.5718C16.1658 18.7674 16.1658 18.3688 16.7178 18.3184C17.2675 18.2703 18.4975 17.597 18.7494 16.9007C19.0014 16.2044 19.0014 15.6066 18.9258 15.4829V15.4806Z" fill="inherit"/>
+  </svg>
+  </span>Whatsapp</a><a class="reddit" href="https://reddit.com/submit?url=https%3A%2F%2Fes.mongabay.com%2F2025%2F02%2Fave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena%2F&amp;title=El%20ave%20que%20desafía%20a%20la%20extinción:%20periquito%20dorado%20regresa%20a%20los%20cielos%20de%20Belem%20en%20la%20Amazonía%20brasileña" target="_blank" data-wpel-link="external" rel="external noopener noreferrer"><span class="icon-share"><svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M27.9997 13.1861C28.0039 13.4741 27.9681 13.7615 27.8925 14.0395C27.8168 14.3175 27.7022 14.5839 27.5519 14.8299C27.4022 15.0758 27.2182 15.2997 27.0059 15.4946C26.7936 15.6896 26.5551 15.8535 26.297 15.9818C26.3028 16.0585 26.3076 16.1357 26.3102 16.213C26.3165 16.3671 26.3165 16.5213 26.3102 16.6754C26.3076 16.7527 26.3028 16.8299 26.297 16.9066C26.297 21.6151 20.8108 25.4407 14.0424 25.4407C7.27402 25.4407 1.78783 21.6151 1.78783 16.9066C1.78205 16.8299 1.77732 16.7527 1.77469 16.6754C1.76836 16.5213 1.76836 16.3671 1.77469 16.213C1.77732 16.1357 1.78205 16.0585 1.78783 15.9818C1.38359 15.796 1.02456 15.5245 0.735566 15.1863C0.446577 14.848 0.234536 14.451 0.114117 14.0227C-0.00610102 13.5942 -0.0317092 13.1447 0.0390675 12.7054C0.109844 12.266 0.275313 11.8473 0.524005 11.4782C0.77248 11.1093 1.09826 10.7987 1.47875 10.5683C1.85923 10.3378 2.28531 10.1928 2.72742 10.1435C3.16958 10.0939 3.61723 10.1411 4.03935 10.2817C4.46147 10.4224 4.84796 10.6531 5.17203 10.958C5.77364 10.5502 6.40395 10.1865 7.05804 9.8697C7.71229 9.55335 8.3886 9.28429 9.08173 9.06569C9.77487 8.84708 10.4832 8.67945 11.2005 8.56331C11.9178 8.44718 12.643 8.38359 13.3698 8.37256L14.9253 1.07865C14.9426 0.994042 14.9768 0.914167 15.0256 0.842699C15.074 0.771757 15.1365 0.710799 15.2085 0.66403C15.281 0.617261 15.362 0.585205 15.4471 0.56944C15.5317 0.554201 15.6189 0.555777 15.703 0.574169L20.8529 1.60415C21.3726 0.711325 22.4635 0.328762 23.4268 0.700815C24.39 1.07287 24.9407 2.0897 24.7253 3.09971C24.5103 4.10972 23.5928 4.81389 22.5618 4.76081C21.5303 4.70773 20.69 3.91318 20.5796 2.88636L16.0814 1.94046L14.7151 8.49867C15.4329 8.51391 16.1492 8.58118 16.8575 8.69942C18.2761 8.93587 19.6531 9.37587 20.9459 10.0058C21.5916 10.32 22.2138 10.6804 22.8077 11.0841C23.2348 10.6741 23.7713 10.3965 24.3527 10.2848C24.9341 10.1728 25.5354 10.2313 26.0842 10.4535C26.6331 10.6756 27.1059 11.0517 27.4458 11.5366C27.7857 12.0214 27.9781 12.5943 27.9997 13.1861ZM7.1395 16.0926C7.24565 16.3475 7.40014 16.5793 7.59563 16.7742C7.79059 16.9697 8.02233 17.1242 8.2772 17.2303C8.5323 17.3358 8.80567 17.3901 9.08173 17.3901C9.93199 17.3901 10.6982 16.8777 11.024 16.0926C11.3493 15.307 11.169 14.4032 10.5678 13.802C9.96667 13.2008 9.06282 13.0206 8.2772 13.3459C7.4921 13.6717 6.97974 14.4378 6.97974 15.2881C6.97974 15.564 7.03387 15.8373 7.1395 16.0926ZM19.1786 21.1385C19.2864 21.0334 19.3479 20.8899 19.35 20.7396C19.3521 20.5888 19.2937 20.4438 19.1886 20.336C19.0835 20.2283 18.9401 20.1668 18.7898 20.1647C18.639 20.1626 18.4939 20.221 18.3725 20.3119C18.0565 20.5386 17.7217 20.7381 17.372 20.9083C17.0222 21.0786 16.6587 21.2191 16.2853 21.3282C15.9122 21.437 15.5301 21.5142 15.1439 21.5589C14.7571 21.6035 14.3677 21.6151 13.9794 21.5941C13.5916 21.6114 13.2027 21.5957 12.8175 21.5473C12.4322 21.4994 12.0518 21.4186 11.6803 21.3056C11.3083 21.1931 10.9473 21.0491 10.5999 20.8757C10.2525 20.7023 9.92043 20.4995 9.60723 20.2698C9.49845 20.1805 9.36025 20.1348 9.21942 20.1416C9.07858 20.1484 8.94563 20.2078 8.84579 20.3071C8.74647 20.407 8.68709 20.5399 8.68025 20.6808C8.67342 20.8216 8.71914 20.9598 8.80848 21.0686C9.1779 21.3471 9.57045 21.593 9.98191 21.8043C10.3934 22.0155 10.8227 22.1905 11.2641 22.3282C11.7055 22.4659 12.158 22.5652 12.6168 22.6256C13.0755 22.6855 13.5385 22.706 14.0004 22.6871C14.4623 22.706 14.9253 22.6855 15.384 22.6256C16.3029 22.5048 17.1941 22.2269 18.0189 21.8043C18.4303 21.593 18.8229 21.3471 19.1923 21.0686L19.1786 21.1385ZM18.7929 17.5583C19.0778 17.5614 19.3605 17.5062 19.6237 17.3969C19.887 17.2871 20.1251 17.1252 20.3237 16.9208C20.5223 16.7164 20.6768 16.4736 20.7788 16.2072C20.8808 15.9411 20.9275 15.657 20.9159 15.3722C20.9159 14.5219 20.4036 13.7558 19.6185 13.4299C18.8329 13.1047 17.929 13.2849 17.3278 13.8861C16.7267 14.4872 16.5464 15.3911 16.8717 16.1767C17.1975 16.9618 17.9637 17.4742 18.814 17.4742L18.7929 17.5583Z" fill="inherit"/>
+  </svg>
+  </span>Reddit</a><a class="email" href="javascript:emailArticle()" data-wpel-link="internal"><span class="icon-share"><svg width="22" height="14" viewBox="0 0 22 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.0016 13.9981C7.92029 13.9981 4.83895 13.9981 1.75762 13.9981C0.933378 13.9981 0.378906 13.4408 0.378906 12.6119C0.378906 9.82371 0.378906 7.03548 0.378906 4.24632C0.378906 3.53596 0.428379 3.50422 1.04633 3.83466C3.93537 5.3786 6.82815 6.916 9.71159 8.47113C10.5797 8.9388 11.4142 8.94066 12.2814 8.473C15.1555 6.92533 18.038 5.3926 20.9168 3.85427C21.0101 3.80479 21.1007 3.75065 21.1968 3.70865C21.5011 3.5733 21.6169 3.63677 21.6169 3.96068C21.6197 6.9132 21.6225 9.86572 21.615 12.8182C21.6131 13.4315 20.9709 13.9981 20.3156 13.9991C17.211 14.0009 14.1063 13.9991 11.0016 13.9991V13.9981Z" fill="inherit"/>
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9974 0.00294517C14.2785 0.00294517 17.5587 0.00294517 20.8398 0.00387862C21.1039 0.00387862 21.4213 -0.0521287 21.5436 0.261512C21.6659 0.576086 21.4558 0.817851 21.2598 1.04188C21.1263 1.19403 20.9564 1.29671 20.7809 1.39286C17.9292 2.95826 15.0785 4.52553 12.2258 6.09C11.4128 6.53526 10.5923 6.53806 9.78018 6.0928C6.92567 4.52927 4.07583 2.96106 1.2232 1.39753C0.906755 1.2239 0.636053 1.00734 0.484834 0.673166C0.317745 0.304451 0.469898 0.0505514 0.873151 0.0085459C0.989833 -0.00265556 1.10745 0.00294517 1.22506 0.00294517C4.48282 0.00294517 7.73965 0.00294517 10.9974 0.00294517Z" fill="inherit"/>
+  </svg>
+  </span>Email</a>      </div>
+      <div class="container full-width in-column gap--8 share-dialog-link">
+        <label for="share-link">Copiar enlace</label>
+        <input id="copy-url" type="text" value="https://es.mongabay.com/2025/02/ave-desafia-extincion-periquito-dorado-regresa-belem-amazonia-brasilena/" id="share-link" readonly>
+        <span class="icon-share-copy"><svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M17.5 7.5H8.75C7.7835 7.5 7 8.2835 7 9.25V18C7 18.9665 7.7835 19.75 8.75 19.75H17.5C18.4665 19.75 19.25 18.9665 19.25 18V9.25C19.25 8.2835 18.4665 7.5 17.5 7.5Z" stroke="inherit" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M3.5 14.5C2.5375 14.5 1.75 13.7125 1.75 12.75V4C1.75 3.0375 2.5375 2.25 3.5 2.25H12.25C13.2125 2.25 14 3.0375 14 4" stroke="inherit" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  </span>
+      </div>
+    </div>
+
+  <script>
+    function openShareDialog(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      const dialog = document.getElementById("share-dialog");
+      dialog.showModal();
+      document.querySelector("body").classList.add("no-scroll");
+    }
+
+    function closeShareDialog(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      const dialog = document.getElementById("share-dialog");
+      dialog.close();
+      document.querySelector("body").classList.remove("no-scroll");
+    }
+
+    function emailArticle(){
+      window.alert("Email this article?");
+      window.location.href = "mailto:?subject=" + encodeURIComponent(document.title) + "&body=" + encodeURIComponent(window.location.href);
+    }
+
+    function copyURL() {
+      const copyText = document.getElementById("copy-url");
+      copyText.select();
+      copyText.setSelectionRange(0, 99999);
+      navigator.clipboard.writeText(copyText.value);
+    }
+
+    document.getElementById("share-article").addEventListener("click", openShareDialog);
+    document.querySelector("#share-dialog .close").addEventListener("click", closeShareDialog);
+    document.querySelector(".email").addEventListener("click", emailArticle);
+    document.querySelector(".icon-share-copy").addEventListener("click", copyURL);
+  </script>      </div>
+
+    </div>
+  </div>
+                            <div class="article-cover-image">
+                                        <div style="background: url('https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175224/PORTADA-Parakeets-flying-768x512.jpg'); background-size: cover; background-position: center; width: 100%;"></div>
+
+                </div>
+                                            <div class="inner">
+                        <article id="post-257192" class="post-257192 post type-post status-publish format-standard has-post-thumbnail hentry location-america-del-sur location-brasil location-latianomerica topic-animales topic-biodiversidad topic-bosques topic-conservacion topic-extincion topic-medioambiente topic-soluciones topic-trafico-de-especies-silvestres byline-sarah-brown">
+                              <div class="bulletpoints-wrapper"><div class="bulletpoints"><ul><li><em>El periquito dorado (Guaruba guarouba), muy codiciado en el mercado negro de mascotas por su llamativo plumaje amarillo, está en peligro de extinción en la Amazonía brasileña.</em></li><li><em>Después de haber estado localmente extinto durante un siglo en Belém, ciudad anfitriona de la COP30 que se celebrará en noviembre, está siendo reintroducido por conservacionistas que, hasta ahora, han liberado 50 individuos en la naturaleza desde 2018. </em></li><li><em>Esta especie desempeña un papel importante en los servicios ecosistémicos, especialmente en la dispersión de semillas de la popular baya de açaí y hasta 22 otras especies de plantas nativas de la Amazonía.</em></li><li><em>Los conservacionistas afirman que el proyecto es un éxito continuo, ya que los periquitos dorados liberados se han adaptado bien a la vida fuera de cautiverio e incluso se han reproducido.</em></li></ul></div><div id="expander-container" class="bullets container full-width"><button class="content-expander"><span>Cinco datos clave</span></button></div></div>  <script>
+    (function($) {
+      $(document).ready(function() {
+        const bulletPoints = $('.bulletpoints');
+        const toggle = $('.bulletpoints-wrapper .content-expander');
+
+        if (bulletPoints.length > 0) {
+          const bulletPointsHeight = bulletPoints[0].scrollHeight;
+
+          if (bulletPointsHeight && bulletPointsHeight <= 170) {
+            toggle.remove();
+          }
+
+          toggle.click(function() {
+            bulletPoints.toggleClass('visible');
+            $('#expander-container.bullets').toggleClass('visible');
+            $(this).toggleClass('visible');
+          });
+        }
+      });
+    })(jQuery);
+  </script>
+
+                            <p>El <strong>periquito dorado</strong> es tan ruidoso como vistoso. Colgados de las ramas superiores, tres de estos loros de tamaño mediano chillan y graznan mientras se asoman para ver mejor al biólogo Marcelo Vilarta mientras los observa. También conocidos como conuros dorados, son aves llamativas con su plumaje amarillo vibrante y las puntas verdes de sus alas que se distinguen de la vegetación amazónica. Sin embargo, son estos colores los que han puesto a su población en <strong>peligro de extinción</strong>.</p>
+<p>El comercio ilegal de mascotas, unido a la grave pérdida de hábitat, ha reducido la población de periquitos dorados (<em>Guaruba guarouba</em>) a <strong>menos de 10 000 ejemplares silvestres</strong>, una cifra pequeña para un bioma tan grande como la Amazonía brasileña, el único lugar del planeta donde se encuentran de forma nativa. Se los puede hallar principalmente en el estado de <strong>Pará</strong>, con registros también en los estados de <strong>Maranhão y Amazonas</strong>.</p>
+<p>“No hay otros periquitos dorados (en estado salvaje) en ningún otro lugar del mundo”, cuenta Vilarta a <strong>Mongabay</strong>. Él forma parte de un proyecto de reintroducción de periquitos dorados apoyado por el <a href="https://ideflorbio.pa.gov.br/" data-wpel-link="external" rel="external noopener noreferrer">Instituto de Desarrollo Forestal y Biodiversidad</a> (IDEFLOR-Bio), una agencia del estado de Pará, y la organización sin fines de lucro <a href="https://br.linkedin.com/company/fundacao-lymington-foundation" data-wpel-link="external" rel="external noopener noreferrer">Fundación Lymington</a>.</p>
+<p>El programa comenzó en 2017, con el primer grupo de periquitos dorados liberados en la naturaleza en enero de 2018, en el Parque Estatal de Utinga en Belém, la capital de Pará y la ciudad anfitriona de la cumbre climática COP30 en 2025. En Belém, estas aves habían estado <strong>localmente extintas durante más de 100 años</strong>. Los curiosos periquitos dorados que observan a Vilarta desde el árbol son tres de los 50 que se han liberado aquí hasta ahora.</p>
+<p>“La idea del proyecto es reducir la vulnerabilidad de la población de periquitos dorados y crear una nueva población salvaje aquí, en una zona donde ya estaban extinguidos”, dice Vilarta.</p>
+<figure id="attachment_257193" class="wp-caption alignnone"><img fetchpriority="high" decoding="async" class="wp-image-257193 size-full" src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175152/1_Marcelo-in-enclosure.jpg" alt="" width="2218" height="1664" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175152/1_Marcelo-in-enclosure.jpg 2218w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175152/1_Marcelo-in-enclosure-768x576.jpg 768w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175152/1_Marcelo-in-enclosure-1536x1152.jpg 1536w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175152/1_Marcelo-in-enclosure-2048x1536.jpg 2048w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175152/1_Marcelo-in-enclosure-610x458.jpg 610w" sizes="(max-width: 2218px) 100vw, 2218px" /><figcaption class="wp-caption-text">El biólogo Marcelo Vilarta pasa todos los días monitoreando y cuidando a los periquitos dorados en el Parque Estatal Utinga. Es capaz de identificar y distinguir a cada uno de un solo vistazo. Foto: Sarah Brown</figcaption></figure>
+<h3>Capturado por su plumaje</h3>
+<p>El periquito dorado desempeña un papel importante en la dispersión de semillas, sobre todo de árboles frutales como el nance (<em>Byrsonima crassifolia</em>) y el açaí (<em>Euterpe oleracea</em>), así como para <a href="https://www.mdpi.com/1424-2818/16/3/188" data-wpel-link="external" rel="external noopener noreferrer">otras 21 plantas nativas</a> de la Amazonía. Actualmente están en peligro de extinción en estado salvaje, aunque siguen siendo bastante comunes en cautiverio. Tanto en la <a href="https://www.iucnredlist.org/species/22724703/132029835" data-wpel-link="external" rel="external noopener noreferrer">Lista Roja de la Unión Internacional para la Conservación de la Naturaleza (UICN)</a> como en la clasificación nacional de Brasil, la especie está clasificada como vulnerable.</p>
+<p>La pérdida de hábitat por la <strong>deforestación</strong> y el <strong>tráfico ilegal de vida silvestre</strong>, en particular, siguen siendo amenazas significativas para el periquito dorado. Según Luís Fábio Silveira, conservador de aves del Museo de Zoología de la Universidad de São Paulo (MZUSP), quien trabaja en el proyecto de reintroducción del periquito dorado, el comercio ilegal de mascotas era una amenaza mayor en las décadas de 1980 y 1990. Pero actualmente se crían periquitos dorados en cautiverio, donde “se pueden adquirir legalmente en todo el mundo” a criadores autorizados, explica a <strong>Mongabay</strong>.</p>
+<p>Sin embargo, la demanda de aves exóticas y raras como mascotas, y las ganancias que reportan, mantienen activo el mercado negro.</p>
+<figure id="attachment_257194" class="wp-caption alignnone"><img decoding="async" class="size-full wp-image-257194" src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175159/2_One-parakeet-in-flight.jpg" alt="" width="1600" height="1315" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175159/2_One-parakeet-in-flight.jpg 1600w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175159/2_One-parakeet-in-flight-768x631.jpg 768w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175159/2_One-parakeet-in-flight-1536x1262.jpg 1536w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175159/2_One-parakeet-in-flight-610x501.jpg 610w" sizes="(max-width: 1600px) 100vw, 1600px" /><figcaption class="wp-caption-text">Los vistosos colores amarillo y verde del periquito dorado lo han hecho muy valioso entre los traficantes de vida silvestre. Foto: cortesía de Marcelo Vilarta</figcaption></figure>
+<p>“El tráfico de vida silvestre es la tercera actividad comercial ilegal más grande del mundo, sólo superada por las drogas y las armas”, cuenta a <strong>Mongabay</strong> Julia Trevisan, bióloga y coordinadora de especies silvestres de la organización británica <a href="https://www.worldanimalprotection.org/" data-wpel-link="external" rel="external noopener noreferrer">World Animal Protection</a>. Comprar aves traficadas puede ser más barato que hacerlo a través de canales legales, y los traficantes se ven atraídos por las posibles altas ganancias. Un guacamayo jacinto (<em>Anodorhynchus hyacinthinus</em>), por ejemplo, puede venderse hasta por 90 000 reales (unos 16 500 dólares), explica Trevisan. En una búsqueda en Internet se encontraron sitios web que venden periquitos dorados por hasta 13 000 reales (unos 2400 dólares). La mayoría de las aves traficadas se venden dentro de Brasil, pero algunas van a Estados Unidos y Europa.</p>
+<p>Los traficantes suelen capturar periquitos dorados talando árboles enteros con nidos en ellos y recogiendo los polluelos supervivientes. Es una práctica devastadora para la población silvestre. “Las aves que sobreviven no pueden reproducirse porque sus nidos fueron destruidos”, explica Vilarta. “Necesitan cavidades muy específicas en los árboles para hacer sus nidos y éstas son muy raras de encontrar”.</p>
+<h3>Proteger la especie</h3>
+<p>La Fundación Lymington, con sede en el estado de São Paulo, ha logrado criar periquitos dorados en los últimos 20 años para aumentar el número de ejemplares de la especie y en 2017 se asoció con IDEFLOR-Bio para reintroducir la especie en la naturaleza, con el apoyo de MZUSP. Se eligió Belém para la reintroducción con el fin de traer de vuelta “una especie a un lugar donde ya había desaparecido”, afirma Vilarta.</p>
+<figure id="attachment_257195" class="wp-caption alignnone"><img decoding="async" class="size-full wp-image-257195" src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175205/3_Wild-parakeets-feeding-from-feeders-scaled-1.jpg" alt="" width="2560" height="1920" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175205/3_Wild-parakeets-feeding-from-feeders-scaled-1.jpg 2560w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175205/3_Wild-parakeets-feeding-from-feeders-scaled-1-768x576.jpg 768w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175205/3_Wild-parakeets-feeding-from-feeders-scaled-1-1536x1152.jpg 1536w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175205/3_Wild-parakeets-feeding-from-feeders-scaled-1-2048x1536.jpg 2048w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175205/3_Wild-parakeets-feeding-from-feeders-scaled-1-610x458.jpg 610w" sizes="(max-width: 2560px) 100vw, 2560px" /><figcaption class="wp-caption-text">Los periquitos dorados silvestres se alimentan de frutas y semillas que el biólogo Marcelo Vilarta les deja todos los días. Foto: Sarah Brown</figcaption></figure>
+<p>El Parque Estatal de Utinga, en el corazón de Belém, es una unidad de conservación y el mayor espacio verde de la ciudad, con una extensión de <strong>1393 hectáreas de entorno natural amazónico</strong> en gran parte preservado, y es el hábitat preferido del periquito dorado. La zona está vigilada tanto por seguridad privada como por la policía ambiental pública, lo que reduce la posibilidad de tráfico ilegal y deforestación.</p>
+<p>Los coordinadores del programa instalaron dos aviarios en el centro del parque, donde actualmente se preparan 10 periquitos dorados para reintroducirlos en la naturaleza. La mayoría proviene del programa de cría de Lymington, pero algunos fueron rescatados del tráfico o de su tenencia como mascotas. Dentro de los recintos, los periquitos dorados pasan por un periodo de <strong>adaptación y aclimatación</strong>, que dura al menos cinco meses.</p>
+<p>El vivero tiene una vegetación similar a la que los periquitos dorados encontrarán en la naturaleza y se les enseña a reconocer y consumir alimentos locales. También se les enseña a reconocer depredadores, como la <strong>boa constrictora</strong>. Para ello Vilarta y su equipo colocan serpientes vivas cerca de su recinto. Los investigadores luego evalúan las reacciones de los periquitos dorados ante las serpientes y las aves rapaces locales que cazan en la zona, y les dan una calificación positiva si emiten llamados colectivos de alarma cuando se acercan los depredadores.</p>
+<figure id="attachment_257196" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-257196" src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175211/4_Wild-parakeets-interact-with-those-in-enclosure-scaled-1.jpg" alt="" width="2560" height="1920" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175211/4_Wild-parakeets-interact-with-those-in-enclosure-scaled-1.jpg 2560w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175211/4_Wild-parakeets-interact-with-those-in-enclosure-scaled-1-768x576.jpg 768w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175211/4_Wild-parakeets-interact-with-those-in-enclosure-scaled-1-1536x1152.jpg 1536w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175211/4_Wild-parakeets-interact-with-those-in-enclosure-scaled-1-2048x1536.jpg 2048w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175211/4_Wild-parakeets-interact-with-those-in-enclosure-scaled-1-610x458.jpg 610w" sizes="(max-width: 2560px) 100vw, 2560px" /><figcaption class="wp-caption-text">Los periquitos dorados que han sido liberados en el Parque Estatal de Utinga a menudo socializan e interactúan con los que se encuentran a la espera de ser liberados. Foto: Sarah Brown</figcaption></figure>
+<p>La <strong>educación ambiental</strong> del público en general, especialmente en las escuelas y universidades y para los visitantes del parque, también desempeña un papel clave en la protección a largo plazo de la especie. “El proyecto ha intensificado su educación para concienciar sobre la importancia de esta especie para la ciudad de Belém, porque es esta ave la que ayuda a propagar las especies frutales típicas de nuestra ciudad”, explica a<strong> Mongabay</strong> Monica Furtado da Costa, gestora de biodiversidad de IDEFLOR-Bio.</p>
+<p>Las actividades educativas incluyen la distribución de folletos sobre el periquito dorado a los estudiantes, la creación de juegos para niños y la realización de una exposición sobre la especie en el Parque Porto do Futuro de Belém.</p>
+<p>Hasta ahora, el programa de reintroducción está funcionando. Un estudio publicado en 2021 sobre el proyecto concluyó que “las aves liberadas tuvieron mucho éxito a la hora de encontrar y consumir alimentos autóctonos, evadir a los depredadores e incluso una pareja consiguió reproducirse con éxito”. Hasta la fecha, el proyecto <strong>ha conseguido reintroducir 50 ejemplares</strong> en la naturaleza.</p>
+<p>A pesar de los éxitos, la reintroducción de todos los periquitos dorados, en especial los capturados anteriormente, no siempre es fácil.</p>
+<p>Una hembra de periquito dorado se balancea sobre la malla del recinto observando con curiosidad a Vilarta hablar de ella y se acerca un poco, demostrando cierta desconfianza a las personas. Él cuenta que una vez fue mantenida como mascota, criada ilegalmente en Pará antes de que su dueño la entregara para el proyecto.</p>
+<p>“Incluso puedes hablarle y te responde”, dice Vilarta.</p>
+<figure id="attachment_257197" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-257197" src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175216/5_Parakeet-with-acai.jpg" alt="" width="1600" height="1066" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175216/5_Parakeet-with-acai.jpg 1600w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175216/5_Parakeet-with-acai-768x512.jpg 768w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175216/5_Parakeet-with-acai-1200x800.jpg 1200w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175216/5_Parakeet-with-acai-1536x1023.jpg 1536w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175216/5_Parakeet-with-acai-610x406.jpg 610w" sizes="(max-width: 1600px) 100vw, 1600px" /><figcaption class="wp-caption-text">Un periquito dorado cuelga de un árbol de açaí, uno de los frutos más consumidos por esta especie. Foto: cortesía de Marcelo Vilarta</figcaption></figure>
+<p>Otro loro se aferra a la malla cercana. Vilarta entra en la jaula, recoge al ave con un palo largo y la coloca cerca de una caja nido para resguardarla del abrasador sol de mediodía. Antes de ser rescatado y entregado al proyecto, este pájaro en particular llevaba 15 años enjaulado y <strong>nunca aprendió a volar</strong>. Vilarta afirma que la reintroducción de estas dos aves en la naturaleza será un reto, si es que es posible, debido a su incapacidad para adaptarse a la vida fuera del cautiverio.</p>
+<p>“Al menos estos dos pueden ser felices y estar a salvo aquí”, señala.</p>
+<p>Actualmente, 10 de las 50 aves silvestres reintroducidas permanecen en el sitio principal de reintroducción, en el Parque Estatal de Utinga, y visitan el recinto a diario para socializar con los periquitos dorados cautivos y comer en los comederos que Vilarta deja para ellas. Él pasa todos los días junto a los recintos, monitoreando tanto a la población cautiva como a la salvaje.</p>
+<p>Los otros 40 que fueron liberados anteriormente se han dispersado a otras regiones. Antes de su liberación, a cada periquito dorado se le coloca un anillo en las patas y un collar en el cuello para ayudar a hacer seguimiento de la población. Los collares radiales ayudan a monitorear a las aves individualmente hasta cierto punto, pero no son eficaces a larga distancia.</p>
+<figure id="attachment_257198" class="wp-caption alignnone"><img loading="lazy" decoding="async" class="size-full wp-image-257198" src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175220/6_Parakeets-eating.jpg" alt="" width="1600" height="1354" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175220/6_Parakeets-eating.jpg 1600w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175220/6_Parakeets-eating-768x650.jpg 768w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175220/6_Parakeets-eating-1536x1300.jpg 1536w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/04175220/6_Parakeets-eating-610x516.jpg 610w" sizes="(max-width: 1600px) 100vw, 1600px" /><figcaption class="wp-caption-text">Los periquitos dorados desempeñan un papel importante en su entorno al dispersar las semillas de las frutas que comen. Foto: cortesía de Marcelo Vilarta</figcaption></figure>
+<p>“Una vez liberados, es difícil seguirles la pista”, lamenta Vilarta. El plan ahora es ampliar el tamaño de los aviarios actuales para dar cabida a más periquitos dorados y luego liberar otros 50 en la naturaleza en los próximos dos años, lo que los investigadores y conservacionistas esperan que ayude a crear poblaciones propias en Belém y más allá.</p>
+<p>“Espero que pronto haya más polluelos, porque ahora necesitan aumentar su población de forma natural”, sostiene Vilarta. “En algún momento podremos dejar de liberar nuevas aves aquí y la población podrá restablecerse de forma natural”.</p>
+<p><em><strong>Imagen destacada: </strong>una bandada de cuatro periquitos dorados vuela por el Parque Estatal de Utinga, en Belém.  <strong>Foto:</strong> cortesía de Marcelo Vilarta</em></p>
+<p><em><strong>CORRECCIÓN (8/5/2024): Una versión anterior de este artículo identificaba erróneamente a Monica Furtado da Costa como directora de IDEFLOR-Bio en lugar de gestora de biodiversidad de la organización. La publicación ya ha sido corregida.</strong></em></p>
+<p><em>Este reportaje fue publicado originalmente <a href="https://news.mongabay.com/2024/06/reintroduction-project-brings-golden-parakeets-back-to-the-skies-of-brazils-belem/" data-wpel-link="external" rel="external noopener noreferrer">aquí en inglés</a> el 26 de junio del 2024. </em></p>
+                            <div id="single-article-footer">
+                                  <div class="container in-column about-editor-translator gap--40 pv--80">
+    <div class="section-title gap--16">
+      <h4>Créditos  </h4>
+      <div class="divider"></div>
+    </div>
+    <div class="container grid--3 repeat gap--40">
+      <div class="in-row gap--16">
+        <div class="author-avatar">
+                    <img alt='' src='https://secure.gravatar.com/avatar/43aba965aae69d1283b1e01fccdccda8?s=32&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/43aba965aae69d1283b1e01fccdccda8?s=64&#038;d=mm&#038;r=g 2x' class='avatar avatar-32 photo' height='32' width='32' loading='lazy' decoding='async'/>        </div>
+        <div class="extra-info">
+          <a href="https://es.mongabay.com/author/mayra/" title="Entradas de Mayra" rel="author" data-wpel-link="internal">Mayra</a>                      <span>Editor/a</span>
+                  </div>
+      </div>
+          </div>
+  </div>
+                                <div id="single-article-tags">
+                                    <div class="section-title gap--16"><h4>Temas</h4><div class="divider"></div></div><div id="article-taxonomies" class="tags container wrapped" style="position: relative"><a href="https://es.mongabay.com/list/animales/" rel="tag" data-wpel-link="internal">Animales</a><a href="https://es.mongabay.com/list/biodiversidad/" rel="tag" data-wpel-link="internal">Biodiversidad</a><a href="https://es.mongabay.com/list/bosques/" rel="tag" data-wpel-link="internal">Bosques</a><a href="https://es.mongabay.com/list/conservacion/" rel="tag" data-wpel-link="internal">Conservación</a><a href="https://es.mongabay.com/list/extincion/" rel="tag" data-wpel-link="internal">Extinción</a><a href="https://es.mongabay.com/list/medioambiente/" rel="tag" data-wpel-link="internal">Medioambiente</a><a href="https://es.mongabay.com/list/soluciones/" rel="tag" data-wpel-link="internal">Soluciones</a><a href="https://es.mongabay.com/list/trafico-de-especies-silvestres/" rel="tag" data-wpel-link="internal">Tráfico de especies silvestres</a><a href="https://es.mongabay.com/list/america-del-sur/" rel="tag" data-wpel-link="internal">América del Sur</a><a href="https://es.mongabay.com/list/brasil/" rel="tag" data-wpel-link="internal">Brasil</a><a href="https://es.mongabay.com/list/latianomerica/" rel="tag" data-wpel-link="internal">Latianomérica</a></div><div id="expander-container" class="tags container full-width"><button class="content-expander"><span>Ver temas</span></button></div>  <script>
+    jQuery(document).ready(function() {
+      const wrapperHeight = document.getElementById('article-taxonomies').scrollHeight;
+      const expanderButton = jQuery('#expander-container.tags button.content-expander');
+
+      if (wrapperHeight <= 130) {
+        jQuery('#expander-container.tags').remove();
+      }
+
+      expanderButton.click(function() {
+        jQuery('#article-taxonomies').toggleClass('visible');
+        jQuery('#expander-container.tags').toggleClass('visible');
+      });
+    });
+  </script>
+                                </div>
+                            </div>
+                            <span class="article-comments"><a href="" data-wpel-link="internal"></a></span>
+                            <script async src="https://recirculation.spot.im/spot/sp_1xRecNST"></script>
+        <div data-spotim-module="recirculation" data-spot-id="sp_1xRecNST"></div><script async data-spotim-module="spotim-launcher" src="https://launcher.spot.im/spot/sp_1xRecNST" data-post-id="257192"></script>
+                        </article>
+                    </div>
+                                    </div>
+    </div>
+    <div class="container ph--40 pv--40 in-column">
+                <div class="section--highlight slider full-width">
+          <div class="container full-width in-column gap--40 pv--40">
+                          <h1>Mujeres que protegen el territorio en Colombia</h1>
+            
+            <div class="in-column gap--20">
+                            <div id="series-slider">
+                <div class="article--container slider slider-series">
+                                      <div class="article--slide expanded">
+                      <a href="https://es.mongabay.com/2025/03/marlen-arevalo-defensora-ambiental-desafia-probabilidades-colombia/" data-wpel-link="internal">
+                        <div class="featured-image">
+                                                    <div class="img-overlay"></div>
+                          <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/20173702/PORTADA-ILUSTRACOION-Marlen-Arevalo-1200x800.jpg" class="attachment-large size-large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/20173702/PORTADA-ILUSTRACOION-Marlen-Arevalo-1200x800.jpg 1200w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/20173702/PORTADA-ILUSTRACOION-Marlen-Arevalo-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" />                          <div class="article--container-headline">
+                            <div class="title headline gap--8 text-center">
+                              <h1>Marlen Arévalo: la defensora ambiental que desafía las probabilidades</h1>
+                              <div class="meta">
+                                <span class="byline">Natalia Pedraza Bravo</span>
+                                <span class="date">5 Mar 2025</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                                      <div class="article--slide collapsed">
+                      <a href="https://es.mongabay.com/2025/03/jani-silva-defensora-perla-amazonica-colombia/" data-wpel-link="internal">
+                        <div class="featured-image">
+                                                    <div class="img-overlay"></div>
+                          <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/26184554/Janni-Silva-1200x800.jpg" class="attachment-large size-large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/26184554/Janni-Silva-1200x800.jpg 1200w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/26184554/Janni-Silva-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" />                          <div class="article--container-headline">
+                            <div class="title headline gap--8 text-center">
+                              <h1>Jani Silva, la defensora de la Perla Amazónica</h1>
+                              <div class="meta">
+                                <span class="byline">Laila Abu Shihab Vergara</span>
+                                <span class="date">3 Mar 2025</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                                      <div class="article--slide collapsed">
+                      <a href="https://es.mongabay.com/2025/03/mujeres-protegen-territorio-defensoras-colombia-viven-al-filo-de-muerte/" data-wpel-link="internal">
+                        <div class="featured-image">
+                                                    <div class="img-overlay"></div>
+                          <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/28161356/1-PORTADA-GENERAL-1200x800.jpg" class="attachment-large size-large wp-post-image" alt="Liliana Piaguaje, Wayra Jacanamijoy (Arriba, de izq. a der.), Marlén Arévalo, Jani Silva (Abajo, de izq. a der.) Ilustración: Leo Jiménez" decoding="async" loading="lazy" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/28161356/1-PORTADA-GENERAL-1200x800.jpg 1200w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/28161356/1-PORTADA-GENERAL-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" />                          <div class="article--container-headline">
+                            <div class="title headline gap--8 text-center">
+                              <h1>Mujeres que protegen el territorio: las defensoras en Colombia viven al filo de muerte</h1>
+                              <div class="meta">
+                                <span class="byline">Pilar Puentes</span>
+                                <span class="date">3 Mar 2025</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                                      <div class="article--slide collapsed">
+                      <a href="https://es.mongabay.com/2025/03/waira-jacanamijoy-heredera-sabiduria-amenazas-defensora-colombia/" data-wpel-link="internal">
+                        <div class="featured-image">
+                                                    <div class="img-overlay"></div>
+                          <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/20182019/PORTADA-ILUSTRACION-Waira-Jacanamijoy-1200x800.jpg" class="attachment-large size-large wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/20182019/PORTADA-ILUSTRACION-Waira-Jacanamijoy-1200x800.jpg 1200w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/02/20182019/PORTADA-ILUSTRACION-Waira-Jacanamijoy-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" />                          <div class="article--container-headline">
+                            <div class="title headline gap--8 text-center">
+                              <h1>Waira Jacanamijoy: heredera de sabiduría y amenazas</h1>
+                              <div class="meta">
+                                <span class="byline">Diana María Pachón</span>
+                                <span class="date">3 Mar 2025</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                                  </div>
+              </div>
+              <div id="series--description-container" class="gap--20">
+                <div class="series--description column--60">
+                  <p>Las defensoras de Colombia siguen siendo estigmatizadas, amenazadas, desplazadas y criminalizadas por su labor en la defensa del territorio y de los derechos de las comunidades. Solo durante 2023 y el primer semestre de 2024 se registraron 238 agresiones contra las mujeres líderes y defensoras. En alianza con Vorágine, Casa Macondo y Rutas del Conflicto [&hellip;]</p>
+                </div>
+                <div class="series--browse column--40">
+                  <a href="https://es.mongabay.com/specials/2025/03/mujeres-protegen-territorio-colombia/" class="theme--button outlined no-margins" data-wpel-link="internal">Mujeres que protegen el territorio en Colombia series <span class="icon icon-right"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+            <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          let articles = document.querySelectorAll(".article--slide");
+          let currentIndex = 0;
+          let autoSlideInterval;
+          const slideIntervalTime = 5000;
+
+          function showNextArticle(nextIndex) {
+            articles[currentIndex].classList.remove("expanded");
+            articles[currentIndex].classList.add("collapsed");
+
+            currentIndex = nextIndex;
+
+            articles[currentIndex].classList.remove("collapsed");
+            articles[currentIndex].classList.add("expanded");
+          }
+
+          function startAutoSlide() {
+            autoSlideInterval = setInterval(() => {
+              showNextArticle((currentIndex + 1) % articles.length);
+            }, slideIntervalTime);
+          }
+
+          function stopAutoSlide() {
+            clearInterval(autoSlideInterval);
+          }
+
+          articles.forEach((article, index) => {
+            article.addEventListener("click", (event) => {
+              if (!article.classList.contains("expanded")) {
+                showNextArticle(index);
+                event.preventDefault();
+              } else {
+                window.location.href = article.querySelector("a").href;
+              }
+            });
+
+            article.addEventListener("mouseenter", stopAutoSlide);
+            article.addEventListener("mouseleave", startAutoSlide);
+          });
+
+          articles[currentIndex].classList.add("expanded");
+
+          startAutoSlide();
+        });
+      </script>
+            <div class="container full-width pv--40">
+                <div class="banner gap--20  accent full-width pv--56">
+      <div class="inner">
+        <div class="title">
+          <h1 class="extra-large">Acceso libre a información de calidad</h1>
+        </div>
+                <a href="https://es.mongabay.com/nosotros" class="theme--button primary ">
+          Más información<span class="icon icon-right"></span>
+        </a>
+      </div>
+    </div>
+          </div>
+        <div id="section-post-latest" class="container pv--40 gap--20 in-column">
+            <div class="container in-row full-width section--headline" style="">
+                <h1>Lo último</h1>
+                <a href="https://es.mongabay.com/articulos" class="theme--button primary md-hide" data-wpel-link="internal">Todos los artículos<span class="icon icon-right"></span></a>
+            </div>
+            <div class="grid--4 gap--20">
+                            <div class="article--container">
+        <a href="https://es.mongabay.com/2025/03/conservacion-agua-paramo-ecuador-regresaron-venados-pumas/" data-wpel-link="internal">
+                      <div class="featured-image">
+                            <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/03/19193516/puma-768x450.png" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" />            </div>
+                              <div class="title headline">
+            <h3>Cuando el agua volvió a un páramo de Ecuador también regresaron los venados y los pumas</h3>
+          </div>
+          <div class="post-meta pv--8">
+            <span class="byline">Ana Cristina Alvarado</span>
+            <span class="date">19 Mar 2025</span>
+          </div>
+        </a>
+      </div>
+            <div class="article--container">
+        <a href="https://es.mongabay.com/2025/03/golfo-de-mexico-derrames-plan-conservacion/" data-wpel-link="internal">
+                      <div class="featured-image">
+                            <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/03/18025526/golfo-de-mexico-derrames-plan-8-768x512.jpeg" class="attachment-medium size-medium wp-post-image" alt="turtugas marinas nadando en el mar" decoding="async" loading="lazy" />            </div>
+                                <div class="featured-label">Historias destacadas</div>
+                    <div class="title headline">
+            <h3>Buscan declarar 45 zonas profundas del Golfo de México como libres de exploración y explotación petrolera</h3>
+          </div>
+          <div class="post-meta pv--8">
+            <span class="byline">Gonzalo Ortuño López</span>
+            <span class="date">19 Mar 2025</span>
+          </div>
+        </a>
+      </div>
+            <div class="article--container">
+        <a href="https://es.mongabay.com/2025/03/pueblos-indigenas-denunciaron-superposicion-areas-petroleras-peru/" data-wpel-link="internal">
+                      <div class="featured-image">
+                            <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2024/05/10150937/Comunidad-nativa-de-Pucacuro.-Dirigentes-de-Pucacuro-muestran-uno-de-los-sitios-impactados-por-derrames-de-petroleo-del-lote-8-768x512.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2024/05/10150937/Comunidad-nativa-de-Pucacuro.-Dirigentes-de-Pucacuro-muestran-uno-de-los-sitios-impactados-por-derrames-de-petroleo-del-lote-8-768x512.jpg 768w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2024/05/10150937/Comunidad-nativa-de-Pucacuro.-Dirigentes-de-Pucacuro-muestran-uno-de-los-sitios-impactados-por-derrames-de-petroleo-del-lote-8-1200x800.jpg 1200w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2024/05/10150937/Comunidad-nativa-de-Pucacuro.-Dirigentes-de-Pucacuro-muestran-uno-de-los-sitios-impactados-por-derrames-de-petroleo-del-lote-8-1536x1024.jpg 1536w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2024/05/10150937/Comunidad-nativa-de-Pucacuro.-Dirigentes-de-Pucacuro-muestran-uno-de-los-sitios-impactados-por-derrames-de-petroleo-del-lote-8-2048x1365.jpg 2048w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2024/05/10150937/Comunidad-nativa-de-Pucacuro.-Dirigentes-de-Pucacuro-muestran-uno-de-los-sitios-impactados-por-derrames-de-petroleo-del-lote-8-610x407.jpg 610w" sizes="(max-width: 768px) 100vw, 768px" />            </div>
+                                <div class="featured-label">Historias destacadas</div>
+                    <div class="title headline">
+            <h3>Pueblos indígenas denunciaron ante la Comisión Interamericana de Derechos Humanos la superposición de nuevas áreas petroleras en sus territorios</h3>
+          </div>
+          <div class="post-meta pv--8">
+            <span class="byline">Yvette Sierra Praeli</span>
+            <span class="date">19 Mar 2025</span>
+          </div>
+        </a>
+      </div>
+            <div class="article--container">
+        <a href="https://es.mongabay.com/2025/03/comercializacion-sin-control-aguaje-peru/" data-wpel-link="internal">
+                      <div class="featured-image">
+                            <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/03/17155511/aguaje-768x512.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" />            </div>
+                              <div class="title headline">
+            <h3>La comercialización sin control del aguaje pone en peligro los bosques de palmeras en Perú</h3>
+          </div>
+          <div class="post-meta pv--8">
+            <span class="byline">Geraldine Santos</span>
+            <span class="date">18 Mar 2025</span>
+          </div>
+        </a>
+      </div>
+            <div class="article--container">
+        <a href="https://es.mongabay.com/2025/03/corte-interamericana-condeno-ecuador-vulnerar-derechos-pueblos-indigenas-aislamiento-voluntario/" data-wpel-link="internal">
+                      <div class="featured-image">
+                            <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/03/17204316/Conaie-2-e1742244287972-768x512.jpeg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" />            </div>
+                                <div class="featured-label">Historias destacadas</div>
+                    <div class="title headline">
+            <h3>La Corte Interamericana condenó a Ecuador por vulnerar los derechos de los pueblos indígenas en aislamiento voluntario</h3>
+          </div>
+          <div class="post-meta pv--8">
+            <span class="byline">Ana Cristina Alvarado</span>
+            <span class="date">18 Mar 2025</span>
+          </div>
+        </a>
+      </div>
+            <div class="article--container">
+        <a href="https://es.mongabay.com/2025/03/salvando-casuario-corredor-vida-silvestre-protegera-misteriosa-ave/" data-wpel-link="internal">
+                      <div class="featured-image">
+                            <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/03/09203402/5-Rainbow-Lorikeet_credit-Climate-Force-768x512.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/03/09203402/5-Rainbow-Lorikeet_credit-Climate-Force-768x512.jpg 768w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/03/09203402/5-Rainbow-Lorikeet_credit-Climate-Force-1200x800.jpg 1200w" sizes="(max-width: 768px) 100vw, 768px" />            </div>
+                                <div class="featured-label">Historias destacadas</div>
+                    <div class="title headline">
+            <h3>Salvando al casuario: nuevo corredor de vida silvestre protegerá a esta misteriosa ave y otras especies</h3>
+          </div>
+          <div class="post-meta pv--8">
+            <span class="byline">Claire Turrell</span>
+            <span class="date">18 Mar 2025</span>
+          </div>
+        </a>
+      </div>
+            <div class="article--container">
+        <a href="https://es.mongabay.com/2025/03/pescadores-artesanales-chile-apuestan-consumo-sostenible/" data-wpel-link="internal">
+                      <div class="featured-image">
+                            <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/03/16234847/Embarcacion-de-jaiba-marmola.-Autor-Claudio-Pichaud-768x512.jpeg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/03/16234847/Embarcacion-de-jaiba-marmola.-Autor-Claudio-Pichaud-768x512.jpeg 768w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2025/03/16234847/Embarcacion-de-jaiba-marmola.-Autor-Claudio-Pichaud-1200x800.jpeg 1200w" sizes="(max-width: 768px) 100vw, 768px" />            </div>
+                              <div class="title headline">
+            <h3>Del puerto al plato: pescadores artesanales de Chile apuestan al consumo sostenible para mejorar sus ingresos</h3>
+          </div>
+          <div class="post-meta pv--8">
+            <span class="byline">Barinia Montoya</span>
+            <span class="date">17 Mar 2025</span>
+          </div>
+        </a>
+      </div>
+            <div class="article--container">
+        <a href="https://es.mongabay.com/2025/03/colombia-contaminacion-mercurio-amenaza-tiburones/" data-wpel-link="internal">
+                      <div class="featured-image">
+                            <img src="https://imgs.mongabay.com/wp-content/uploads/sites/25/2023/05/30201216/Shutterstock-Alopias-pelagicus-768x512.jpg" class="attachment-medium size-medium wp-post-image" alt="" decoding="async" loading="lazy" srcset="https://imgs.mongabay.com/wp-content/uploads/sites/25/2023/05/30201216/Shutterstock-Alopias-pelagicus-768x512.jpg 768w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2023/05/30201216/Shutterstock-Alopias-pelagicus-610x407.jpg 610w, https://imgs.mongabay.com/wp-content/uploads/sites/25/2023/05/30201216/Shutterstock-Alopias-pelagicus.jpg 1000w" sizes="(max-width: 768px) 100vw, 768px" />            </div>
+                                <div class="featured-label">Historias destacadas</div>
+                    <div class="title headline">
+            <h3>Colombia: la contaminación por mercurio amenaza la subsistencia de siete especies de tiburones</h3>
+          </div>
+          <div class="post-meta pv--8">
+            <span class="byline">Nicole Andrea Vargas</span>
+            <span class="date">17 Mar 2025</span>
+          </div>
+        </a>
+      </div>
+            </div>
+            <div class="container centered pv--40">
+                <a href="https://es.mongabay.com/articulos" class="theme--button primary" data-wpel-link="internal">Todos los artículos<span class="icon icon-right"></span></a>
+            </div>
+        </div>
+        <div class="container pv--40 full-width">
+                <div class="banner gap--20  accent ph--20 pv--56 full-width">
+      <div class="inner">
+        <div class="title">
+          <h1 class="extra-large">Suscríbete</h1>
+        </div>
+                  <div class="copy">
+            Noticias e inspiración desde lo más profundo de la naturaleza.          </div>
+                <a href="https://es.mongabay.com/boletin-de-noticias/" class="theme--button primary ">
+          Newsletter<span class="icon icon-right"></span>
+        </a>
+      </div>
+    </div>
+          </div>
+    </div>
+</main>
+<footer class="footer" role="contentinfo">
+	<div class="container ph--40 pv--40 in-column gap--40">
+		<div class="branding">
+			<a href="https://es.mongabay.com" class="theme-light" data-wpel-link="internal"><img src="https://es.mongabay.com/wp-content/themes/mongabay_v2/img/logo/mongabay_logo_news_black.svg" /></a><a href="" class="theme-dark" data-wpel-link="internal"><img src="https://es.mongabay.com/wp-content/themes/mongabay_v2/img/logo/mongabay_logo_news_white.svg" /></a>
+		</div>
+		<div class="grid--4 gap--40">
+			<div>
+				<div class="section-title gap--16 pv--8">
+					<h4>Secciones</h4>
+					<div class="divider"></div>
+				</div>
+				<ul class="footer-links">
+					<li><a href="https://es.mongabay.com/videos" data-wpel-link="internal">Videos</a></li>
+					<li><a href="https://es.mongabay.com/podcasts" data-wpel-link="internal">Podcasts</a></li>					<li><a href="https://es.mongabay.com/articulos" data-wpel-link="internal">Artículos</a></li>
+					<li><a href="https://es.mongabay.com/especiales" data-wpel-link="internal">Especiales</a></li>
+					<li><a href="https://es.mongabay.com/en-corto" data-wpel-link="internal">En corto</a></li>					<li><a href="https://es.mongabay.com/destacadas" data-wpel-link="internal">Destacadas</a></li>
+					<li><a href="https://es.mongabay.com/list/2025" data-wpel-link="internal">Más contenidos</a></li>
+				</ul>
+			</div>
+			<div>
+				<div class="section-title gap--16 pv--8">
+					<h4>Nosotros</h4>
+					<div class="divider"></div>
+				</div>
+				<ul class="footer-links">
+					<li><a href="https://es.mongabay.com/nosotros" data-wpel-link="internal">Nosotros</a></li>
+					<li><a href="https://news.mongabay.com/contact/" data-wpel-link="external" rel="external noopener noreferrer">Contacto</a></li>
+					<li><a href="https://mongabay.org/donate" data-wpel-link="external" rel="external noopener noreferrer">Donar</a></li>					<li><a href="https://es.mongabay.com/boletin-de-noticias/" data-wpel-link="internal">Newsletters</a></li>
+					<li><a href="https://news.mongabay.com/submissions/" data-wpel-link="external" rel="external noopener noreferrer">Cómo proponer historias</a></li>
+					<li><a href="https://news.mongabay.com/terms/" data-wpel-link="external" rel="external noopener noreferrer">Condiciones de uso</a></li>
+				</ul>
+			</div>
+			<div>
+				<div class="section-title gap--16 pv--8">
+					<h4>Enlaces externos</h4>
+					<div class="divider"></div>
+				</div>
+				<ul class="footer-links">
+					<li><a href="https://www.wildmadagascar.org/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Wild Madagascar</a></li>
+					<li><a href="https://selvastropicales.org/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Selvas tropicales</a></li>
+					<li><a href="https://kids.mongabay.com/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Para niños</a></li>
+					<li><a href="https://www.mongabay.org/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Mongabay.org</a></li>
+					<li><a href="https://tropicalforestnetwork.org/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Red de Bosques Tropicales</a></li>
+				</ul>
+			</div>
+			<div>
+				<div class="section-title gap--16 pv--8">
+					<h4>Redes sociales</h4>
+					<div class="divider"></div>
+				</div>
+				<ul class="footer-links">
+					<li><a href="https://www.linkedin.com/company/mongabay-latam/posts/?feedView=all" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">LinkedIn</a></li>
+					<li><a href="https://www.instagram.com/Mongabaylatam" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Instagram</a></li>
+					<li><a href="https://www.youtube.com/c/MongabayLatam" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Youtube</a></li>
+					<li><a href="https://x.com/MongabayLatam" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">X</a></li>
+					<li><a href="https://www.facebook.com/MongabayLatam" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Facebook</a></li>
+					<li><a href="https://es.mongabay.com/feed" data-wpel-link="internal">RSS / XML</a></li>
+					<li><a href="https://mastodon.green/@mongabay" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Mastodon</a></li>
+					<li><a href="https://play.google.com/store/apps/details?id=com.newsmongabay&amp;hl=en" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Android App</a></li>
+					<li><a href="https://apple.news/T7BxfNfp4QAiuOPNsUcn04Q/" target="_blank" data-wpel-link="external" rel="external noopener noreferrer">Apple News</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="divider"></div>
+		<div>
+			<p class="copyright">
+				© 2025 Copyright Conservation news. Mongabay is a U.S.-based non-profit conservation and environmental science news platform. Our EIN or tax ID is 45-3714703.
+			</p>
+		</div>
+	</div>
+</footer>
+<link rel='stylesheet' id='soundcite-css' href='https://cdn.knightlab.com/libs/soundcite/latest/css/player.css' media='all' />
+<script type="text/javascript" src="https://es.mongabay.com/wp-content/themes/mongabay_v2/js/lib/addtohomescreen.min.js" id="addtohomescreen-js"></script>
+<script type="text/javascript" src="https://es.mongabay.com/wp-content/themes/mongabay_v2/js/lib/dialog-polyfill.js" id="dialog-polyfill-js"></script>
+<script type="text/javascript" src="https://es.mongabay.com/wp-content/plugins/progressive-wp/assets/scripts/ui-installprompt.js" id="pwp-installprompt-script-js"></script>
+<script type="text/javascript" src="https://es.mongabay.com/wp-content/plugins/bloom/core/admin/js/common.js" id="et-core-common-js"></script>
+<script type="text/javascript" src="https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js" id="soundcite-js"></script>
+	   <script type="text/javascript">
+	     	jQuery('.soliloquy-container').removeClass('no-js');
+	   </script>
+	   <script>!function(){window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[],advanced_ads_ready_queue.push=window.advanced_ads_ready;for(var d=0,a=advanced_ads_ready_queue.length;d<a;d++)advanced_ads_ready(advanced_ads_ready_queue[d])}();</script></body>
+
+</html>
