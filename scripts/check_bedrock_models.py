@@ -1,6 +1,5 @@
 """
-Script to check which Bedrock models you have access to
-Run this to see available models before configuring your translation/summarization setup
+Script to check which Bedrock models we have access to
 """
 import sys
 import os

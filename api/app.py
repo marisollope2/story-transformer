@@ -128,7 +128,7 @@ except Exception as e:
 if not aws_configured:
     st.warning("⚠️ **AWS credentials not configured.** Please configure AWS credentials using `aws configure` before using this app.")
 
-# Optional: Show available models info
+# Show available models info
 with st.sidebar.expander("ℹ️ About Models"):
     st.write("""
     This app uses AWS Bedrock models:

@@ -10,6 +10,8 @@ from dotenv import load_dotenv
 from .bedrock_client import get_bedrock_client, invoke_bedrock_model
 from .bedrock_config import get_model_config, get_region, get_translation_model_for_language
 from .bedrock_model_checker import check_model_access, get_recommended_models_for_task
+from .text_normalization import normalize_for_bedrock
+
 
 load_dotenv()
 
@@ -90,6 +92,8 @@ For all other lines (paragraph text, bullets), translate normally.
 Preserve ALL line breaks, bullets, and overall formatting. 
 Do NOT add Markdown or extra symbols.
 
+IMPORTANT: Provide ONLY the translated text. Do not include any reasoning, thinking process, or explanation of how you translated the text.
+
 🔤 STYLE AND FORMATTING RULES:
 - Use natural sentence structure for the target language (avoid copying English word order).
 - Ensure gender and number agreement between nouns and adjectives.
@@ -116,7 +120,8 @@ END TEXT
     system_prompt = (
         f"You are a professional {target_language}-language translator specializing in "
         "environmental and scientific journalism. You produce accurate, natural translations "
-        "that maintain the original meaning while adapting to the target language's conventions."
+        "that maintain the original meaning while adapting to the target language's conventions. "
+        "Provide ONLY the translated text without any reasoning, thinking process, or explanation."
     )
 
     try:
@@ -184,11 +189,17 @@ def translate_simple_text(
     
     client = get_bedrock_client(region_name=aws_region)
 
-    prompt = f"Translate the following text to {target_language}. Preserve the original formatting, line breaks, and structure.\n\n{text}"
+    prompt = f"""Translate the following text to {target_language}. Preserve the original formatting, line breaks, and structure.
+
+IMPORTANT: Provide ONLY the translation. Do not include any reasoning, thinking process, or explanation of how you translated the text.
+
+Text to translate:
+{text}"""
 
     system_prompt = (
         f"You are a professional {target_language}-language translator. "
-        "Provide accurate, natural translations that maintain the original meaning and tone."
+        "Provide accurate, natural translations that maintain the original meaning and tone. "
+        "Provide ONLY the translated text without any reasoning or explanation."
     )
 
     try:

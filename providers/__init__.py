@@ -3,7 +3,7 @@ Bedrock Providers Package
 Multi-model support for translation and summarization using AWS Bedrock
 """
 from .bedrock_translation import translate_structured_text, translate_simple_text
-from .bedrock_summarization import summarize_text_narrative, summarize_text_simple, summarize_and_translate
+from .bedrock_summarization import summarize_text_narrative, summarize_and_translate
 from .bedrock_client import get_bedrock_client, invoke_bedrock_model
 from .bedrock_config import (
     get_model_config, 
@@ -24,7 +24,6 @@ __all__ = [
     'translate_structured_text',
     'translate_simple_text',
     'summarize_text_narrative',
-    'summarize_text_simple',
     'summarize_and_translate',
     'get_bedrock_client',
     'invoke_bedrock_model',

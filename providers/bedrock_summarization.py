@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 from .bedrock_client import get_bedrock_client, invoke_bedrock_model
 from .bedrock_config import get_model_config, get_region
 from .bedrock_model_checker import check_model_access, get_recommended_models_for_task
+from .text_normalization import normalize_for_bedrock
 
 load_dotenv()
 
@@ -35,6 +36,9 @@ def summarize_text_narrative(
     if not text.strip():
         return ""
 
+    # Normalize text for Bedrock compatibility
+    text = normalize_for_bedrock(text)
+
     # Get model configuration
     config = get_model_config()
     summarization_model = model_id or config["summarization"]
@@ -60,11 +64,14 @@ def summarize_text_narrative(
     system_prompt = (
         "You are a skilled writer who summarizes text in a clear and narrative style. "
         "Preserve the logical flow and tone of the original text. Use transitions to make "
-        "the summary feel cohesive. Keep the summary concise but comprehensive."
+        "the summary feel cohesive. Keep the summary concise but comprehensive. "
+        "Provide ONLY the summary text without any reasoning, analysis, or explanation of your process."
     )
 
     prompt = f"""Summarize the following text in approximately {word_limit} words. 
 Maintain a narrative style that preserves the logical flow and key information.
+
+IMPORTANT: Provide ONLY the summary. Do not include any reasoning, thinking process, or explanation of how you created the summary.
 
 Text to summarize:
 {text}
@@ -79,63 +86,12 @@ Text to summarize:
             max_tokens=2048,
             temperature=0.5  # Moderate temperature for balanced creativity and accuracy
         )
+        
         return summary.strip()
     
     except Exception as e:
         raise Exception(f"Summarization failed: {str(e)}")
 
-
-def summarize_text_simple(
-    text: str,
-    word_limit: int = 200,
-    region: Optional[str] = None,
-    model_id: Optional[str] = None
-) -> str:
-    """
-    Creates a simple, bullet-point style summary.
-    
-    Args:
-        text: Text to summarize
-        word_limit: Target word count for summary
-        region: AWS region (optional)
-        model_id: Specific model to use (optional)
-    
-    Returns:
-        Summarized text
-    """
-    if not text.strip():
-        return ""
-
-    config = get_model_config()
-    summarization_model = model_id or config["summarization"]
-    aws_region = region or get_region()
-
-    client = get_bedrock_client(region_name=aws_region)
-
-    system_prompt = (
-        "You are a concise summarizer. Create clear, bullet-point summaries "
-        "that capture the essential information from the text."
-    )
-
-    prompt = f"""Create a concise summary of approximately {word_limit} words in bullet-point format.
-
-Text to summarize:
-{text}
-"""
-
-    try:
-        summary = invoke_bedrock_model(
-            client=client,
-            model_id=summarization_model,
-            prompt=prompt,
-            system_prompt=system_prompt,
-            max_tokens=1024,
-            temperature=0.3
-        )
-        return summary.strip()
-    
-    except Exception as e:
-        raise Exception(f"Summarization failed: {str(e)}")
 
 
 def summarize_and_translate(
@@ -162,6 +118,7 @@ def summarize_and_translate(
         Summarized (and optionally translated) text
     """
     from .bedrock_translation import translate_simple_text
+    from .text_normalization import normalize_for_bedrock
 
     # First, summarize using the summarization model
     summary = summarize_text_narrative(
@@ -170,6 +127,7 @@ def summarize_and_translate(
         region=region,
         model_id=summarization_model_id
     )
+    summary = normalize_for_bedrock(summary)
 
     # Then, translate if needed using the translation model
     if language.lower() != "english":
@@ -179,6 +137,7 @@ def summarize_and_translate(
             region=region,
             model_id=translation_model_id
         )
+        summary = normalize_for_bedrock(summary)
 
     return summary
 
