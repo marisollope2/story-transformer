@@ -16,6 +16,23 @@ from .text_normalization import normalize_for_bedrock
 load_dotenv()
 
 
+def _remove_reasoning_tags(text: str) -> str:
+    """
+    Remove reasoning tags and thinking blocks from model output.
+    Handles various formats like <reasoning>...</reasoning>, <thinking>...</thinking>, etc.
+    """
+    # Remove reasoning tags (case-insensitive, handles multiline)
+    text = re.sub(r'<reasoning>.*?</reasoning>', '', text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r'<thinking>.*?</thinking>', '', text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r'<thought>.*?</thought>', '', text, flags=re.DOTALL | re.IGNORECASE)
+    
+    # Remove any remaining XML-like reasoning tags
+    text = re.sub(r'<[^>]*reasoning[^>]*>.*?</[^>]*reasoning[^>]*>', '', text, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r'<[^>]*thinking[^>]*>.*?</[^>]*thinking[^>]*>', '', text, flags=re.DOTALL | re.IGNORECASE)
+    
+    return text.strip()
+
+
 def translate_structured_text(
     text: str,
     target_language: str = "French",
@@ -97,19 +114,8 @@ IMPORTANT: Provide ONLY the translated text. Do not include any reasoning, think
 🔤 STYLE AND FORMATTING RULES:
 - Use natural sentence structure for the target language (avoid copying English word order).
 - Ensure gender and number agreement between nouns and adjectives.
-- Keep correct spacing for punctuation and symbols:
-  • A space before the "%" sign in Spanish and French (e.g., "20 %").
-  • No punctuation for 4-digit numbers (e.g., "3000", not "3,000" or "3.000").
-  • Use commas as decimal separators only when appropriate for the target language.
-- Keep quotation marks appropriate for the target language ("…" in English, « … » in French, "…" in Spanish).
-- Maintain metric units only (omit imperial conversions like pounds, miles, or °F).
-- Do NOT capitalize adjectives indicating regions or directions (e.g., "África occidental" not "África Occidental").
-- In Spanish, retain definite articles in headlines when grammatically required (e.g., "la pesca").
-- In French, italicize foreign words if they appear in the source text.
-- Do not use symbols such as "+" for approximations; spell them out (e.g., "más de 5500").
-- Avoid literal translations that sound unnatural (e.g., "jugar un papel" → "desempeñar un papel"; "etiquetar" → "llamar").
-- Verify all official names of laws, directives, and institutions using their standard or most common translations.
-- If translation fails or encounters unknown language segments, leave them unchanged rather than producing garbled output.
+- You are an editor, copy-edit
+
 
 BEGIN TEXT
 {safe_text}
@@ -134,6 +140,9 @@ END TEXT
             max_tokens=8192,
             temperature=0.3  # Lower temperature for more consistent translation
         )
+
+        # Remove reasoning tags and thinking blocks
+        translated = _remove_reasoning_tags(translated)
 
         # Restore placeholders back to English labels
         for label, ph in label_to_ph.items():
@@ -211,6 +220,10 @@ Text to translate:
             max_tokens=4096,
             temperature=0.3
         )
+        
+        # Remove reasoning tags and thinking blocks
+        translated = _remove_reasoning_tags(translated)
+        
         return translated.strip()
     
     except Exception as e:

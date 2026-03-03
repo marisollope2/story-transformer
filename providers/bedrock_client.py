@@ -93,12 +93,14 @@ def _invoke_openai_model(client, model_id, prompt, system_prompt, max_tokens, te
         "content": prompt
     })
     
-    # OpenAI models in Bedrock use a chat-like format
+    # OpenAI models in Bedrock use a chat-like format.
+    # Exclude chain-of-thought reasoning from the response (gpt-oss convention).
     body = {
         "messages": messages,
         "max_tokens": max_tokens,
         "temperature": temperature,
-        "top_p": top_p
+        "top_p": top_p,
+        "reasoning": {"exclude": True}
     }
     
     try:

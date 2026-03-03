@@ -10,3 +10,5 @@ Pillow
 boto3
 botocore
 python-docx
+fastapi
+uvicorn[standard]
