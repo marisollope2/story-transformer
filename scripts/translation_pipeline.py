@@ -1,13 +1,35 @@
 import re
-from openai import OpenAI
+import sys
+import os
+
+# Add parent directory to path to import providers
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from providers.bedrock_translation import translate_structured_text as bedrock_translate_structured_text
+
+# Keep OpenAI version for backward compatibility
+try:
+    from openai import OpenAI
+    OPENAI_AVAILABLE = True
+except ImportError:
+    OPENAI_AVAILABLE = False
 
 def get_openai_client(api_key):
+    if not OPENAI_AVAILABLE:
+        raise ImportError("OpenAI package not installed. Please use Bedrock instead.")
     return OpenAI(api_key=api_key)
 
-def translate_structured_text(text: str, target_language: str = "French", api_key=None) -> str:
+def translate_structured_text(text: str, target_language: str = "French", api_key=None, use_bedrock: bool = True) -> str:
     if target_language.lower() == "english" or not text.strip():
         return text
 
+    # Use Bedrock by default, fall back to OpenAI if requested
+    if use_bedrock:
+        return bedrock_translate_structured_text(text, target_language)
+    
+    # OpenAI fallback (for backward compatibility)
+    if not api_key:
+        raise ValueError("API key required for OpenAI translation")
     client = get_openai_client(api_key)
 
     label_to_ph = {
