@@ -5,6 +5,7 @@ from typing import Optional
 
 from fastapi import FastAPI, HTTPException, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import Response
 from pydantic import BaseModel
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
@@ -23,8 +24,25 @@ class TranslateResponse(BaseModel):
     output: str
 
 
+class RefineRequest(BaseModel):
+    """Refine an existing draft (revision loop)."""
+    sourceText: str
+    currentDraft: str
+    refinePrompt: str
+
+
 class UrlRequest(BaseModel):
     url: str
+
+
+class TTSRequest(BaseModel):
+    """Text-to-speech: synthesize draft text to audio (e.g. for download)."""
+    text: str
+    voiceId: Optional[str] = None  # Polly voice, e.g. Joanna, Miguel; default below
+
+
+# Polly standard single-call limit (chars)
+_POLLY_TEXT_MAX = 3000
 
 
 def _extract_text_from_pdf_bytes(raw: bytes) -> str:
@@ -84,6 +102,32 @@ def translate(req: TranslateRequest) -> TranslateResponse:
         user_request=instructions,
     )
 
+    return TranslateResponse(output=result)
+
+
+@app.post("/translate/refine", response_model=TranslateResponse)
+def translate_refine(req: RefineRequest) -> TranslateResponse:
+    """
+    Refine an existing draft using a follow-up prompt (revision loop).
+    Use this for "make it shorter", "more formal", "fix the third paragraph", etc.
+    Keeps sourceText as the stable original; currentDraft is the version to refine.
+    """
+    source = (req.sourceText or "").strip()
+    current = (req.currentDraft or "").strip()
+    prompt = (req.refinePrompt or "").strip()
+
+    if not source:
+        raise HTTPException(status_code=400, detail="sourceText cannot be empty")
+    if not current:
+        raise HTTPException(status_code=400, detail="currentDraft cannot be empty")
+    if not prompt:
+        raise HTTPException(status_code=400, detail="refinePrompt cannot be empty")
+
+    result = refine_with_chat(
+        original_text=source,
+        current_text=current,
+        user_request=prompt,
+    )
     return TranslateResponse(output=result)
 
 
@@ -168,6 +212,41 @@ async def extract_from_uploaded_file(file: UploadFile = File(...)) -> dict:
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/tts")
+def text_to_speech(req: TTSRequest) -> Response:
+    """
+    Synthesize draft text to MP3 using Amazon Polly.
+    Returns audio bytes; frontend can offer as download or play.
+    Text over {} chars is truncated (Polly limit).
+    """.format(_POLLY_TEXT_MAX).strip()
+    text = (req.text or "").strip()
+    if not text:
+        raise HTTPException(status_code=400, detail="text cannot be empty")
+
+    text = text[:_POLLY_TEXT_MAX]
+    voice_id = (req.voiceId or "Joanna").strip() or "Joanna"
+
+    try:
+        import boto3
+        polly = boto3.client("polly", region_name=os.getenv("AWS_DEFAULT_REGION", "us-east-1"))
+        resp = polly.synthesize_speech(
+            Text=text,
+            OutputFormat="mp3",
+            VoiceId=voice_id,
+        )
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"TTS failed: {str(e)}")
+
+    audio_bytes = resp["AudioStream"].read()
+    return Response(
+        content=audio_bytes,
+        media_type="audio/mpeg",
+        headers={
+            "Content-Disposition": "attachment; filename=draft.mp3",
+        },
+    )
 
 
 if __name__ == "__main__":
