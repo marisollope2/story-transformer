@@ -119,7 +119,7 @@ pip install -r requirements.txt
 
 ⸻
 
-## Running Instructions
+## Running the App
 
 1. Activate Your Virtual Environment
 
@@ -157,9 +157,10 @@ Then open `http://localhost:8000/docs` to explore the API.
 
 3. Launch the frontend
 
-In a separate terminal window, cd into story-transformer/frontend and run:
+In a separate terminal window, open the project root and run:
 
 ```bash
+cd frontend
 npm install # if this is your first time running the frontend, if not then ignore
 npm start
 ```
