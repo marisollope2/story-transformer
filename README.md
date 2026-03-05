@@ -1,12 +1,12 @@
 # [DSS x Mongabay] Story Transformer Technical Reference Guide
 
-## 🚀 Project Overview
+## Project Overview
 
-This project extracts, summarizes, and translates Mongabay articles using BeautifulSoup and OpenAI’s GPT-4.
+This project extracts, summarizes, and translates Mongabay articles.
 
 ⸻
 
-## 📌 Features
+## Features
 - **Article extraction**: Pulls clean text from Mongabay URLs, Google Docs links, and uploaded `.docx` / `.pdf` / `.txt` files.
 - **Editing, translation, and summarization**: Uses a single Bedrock‑backed editor (`bedrock_editor`) that can translate, summarize, or refine copy based on your instructions.
 - **FastAPI backend**: Exposes a small, focused API (`/translate`, `/translate/refine`, `/extract/*`, `/tts`) used by the React frontend.
@@ -16,20 +16,20 @@ This project extracts, summarizes, and translates Mongabay articles using Beauti
 
 ⸻
 
-## 🛠️ Opening the Project
+## Opening the Project
 
 ### If you're new to this project
 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/kar722/Story-Transformer.git
-cd Story-Transformer
+git clone [url]
+cd story-transformer
 ```
 
 2. **Open the folder in your editor**
 
-- In **Cursor/VS Code**: `File → Open Folder…` and select the `Story-Transformer` folder you just cloned.
+- In **editor**: `File → Open Folder…` and select the `story-transformer` folder you just cloned.
 
 3. **Create and activate a virtual environment (Python backend)**
 
@@ -84,7 +84,7 @@ git pull origin main   # or your active branch
 
 2. **Re-open / focus the folder in your editor**
 
-- In **Cursor/VS Code**, open the existing `Story-Transformer` folder (or switch to that workspace if it’s already open).
+- In **editor**, open the existing `story-transformer` folder (or switch to that workspace if it’s already open).
 
 3. **Reactivate your virtual environment**
 
@@ -119,7 +119,7 @@ pip install -r requirements.txt
 
 ⸻
 
-## ▶️ Running Instructions
+## Running Instructions
 
 1. Activate Your Virtual Environment
 
@@ -155,9 +155,18 @@ Then open `http://localhost:8000/docs` to explore the API.
 
 > Note: A React frontend (in `frontend/`) can call this FastAPI backend. If you’re using that UI, follow the frontend README or `package.json` scripts there to start the React dev server, usually on `http://localhost:3000`.
 
+3. Launch the frontend
+
+In a separate terminal window, cd into story-transformer/frontend and run:
+
+```bash
+npm install # if this is your first time running the frontend, if not then ignore
+npm start
+```
+
 ⸻
 
-## 🔊 AWS Polly (Text‑to‑Speech)
+## AWS Polly (Text‑to‑Speech)
 
 The backend includes a `/tts` endpoint that uses **Amazon Polly** to synthesize MP3 audio from the current draft.
 
@@ -169,7 +178,7 @@ The backend includes a `/tts` endpoint that uses **Amazon Polly** to synthesize 
 
 ⸻
 
-## 🧭 Notes for Future Engineers
+## Notes
 
 - **Backend vs frontend**
   - `api/backend.py` is the FastAPI app used by the React frontend.
@@ -188,21 +197,3 @@ The backend includes a `/tts` endpoint that uses **Amazon Polly** to synthesize 
 - **Housekeeping**
   - `examples/` and legacy Streamlit files are safe to delete if unused.
   - Before removing any `providers/` or `scripts/` modules, run the tests in `tests/` and a quick manual pass through the main flows (extract → translate → refine → TTS).
-
-⸻
-
-🌍 Translate a Mongabay Article
-1. Upload a Mongabay article URL (in English)
-2. Select your desired language from the dropdown
-3. Click Translate
-4. Click Download Translation (.pdf) to save the result
-
-⸻
-
-📝 Summarize a Text Article
-1. Upload a Mongabay article URL
-2. Choose your desired word count and summary language
-3. Click Summarize
-4. Click Download Summary (.pdf) to save it
-
-⸻
