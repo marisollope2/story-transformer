@@ -95,7 +95,7 @@ def _generic_refine(
     client = get_bedrock_client(region_name=aws_region)
     
     system_prompt = (
-        "You are a professional editor, translator, and summarizer. "
+        "You are a professional editor, translator, and summarizer - specializing in environmental journalism. "
         "Given an article and a user request, you must decide whether to translate, "
         "summarize, both, or perform other edits (tone, style, length, etc.). "
         "Always follow explicit constraints in the request, such as target language, "
